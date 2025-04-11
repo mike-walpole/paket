@@ -1,22 +1,22 @@
 <script>
   const produkty = [
-    { title: 'Słoiki', href: '/produkty/sloiki' },
-    { title: 'Butelki', href: '/produkty/butelki' },
-    { title: 'Zamknięcia', href: '/produkty/zamkniecia' },
-    { title: 'Akcesoria', href: '/produkty/akcesoria' }
+    { title: 'Mieszkania', href: '/nieruchomosci/mieszkania' },
+    { title: 'Domy', href: '/nieruchomosci/domy' },
+    { title: 'Lokale', href: '/nieruchomosci/lokale' },
+    { title: 'Działki', href: '/nieruchomosci/dzialki' }
   ];
 
   const oFirmie = [
     { title: 'O nas', href: '/o-nas' },
-    { title: 'Historia', href: '/historia' },
-    { title: 'Certyfikaty jakości', href: '/certyfikaty' },
+    { title: 'Zespół', href: '/zespol' },
+    { title: 'Referencje', href: '/referencje' },
     { title: 'Kariera', href: '/kariera' }
   ];
 
   const dlaKlienta = [
-    { title: 'Ekologia', href: '/ekologia' },
+    { title: 'Kalkulator kredytowy', href: '/kalkulator' },
     { title: 'Pytania i odpowiedzi', href: '/faq' },
-    { title: 'Współpraca B2B', href: '/wspolpraca' },
+    { title: 'Współpraca', href: '/wspolpraca' },
     { title: 'Kontakt', href: '/kontakt' }
   ];
 
@@ -32,7 +32,7 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
       <!-- Newsletter Section -->
       <div>
-        <h3 class="text-lg mb-4">Newsletter Jar & More®</h3>
+        <h3 class="text-lg mb-4">Newsletter Paket</h3>
         <p class="text-white/80 text-base mb-6">
           Zapisz się na nasz newsletter, aby otrzymywać informacje o nowościach w ofercie, promocjach dla firm oraz ekologicznych rozwiązaniach w branży opakowań.
         </p>
@@ -63,7 +63,7 @@
       
       <!-- Produkty -->
       <div>
-        <h3 class="text-lg mb-4">Produkty</h3>
+        <h3 class="text-lg mb-4">Nieruchomości</h3>
         <ul class="space-y-2">
           {#each produkty as item}
             <li>
@@ -107,7 +107,7 @@
     <!-- Bottom section with copyright -->
     <div class="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-start md:items-center">
       <p class="text-white/60 text-sm mb-4 md:mb-0">
-        &copy; {new Date().getFullYear()} Jar & More. Wszelkie prawa zastrzeżone.
+        &copy; {new Date().getFullYear()} Paket. Wszelkie prawa zastrzeżone.
       </p>
       <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
         <a href="/polityka-prywatnosci" class="text-white/60 hover:text-white text-sm">
