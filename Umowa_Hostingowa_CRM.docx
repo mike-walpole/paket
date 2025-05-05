@@ -1,0 +1,259 @@
+UMOWA O ŚWIADCZENIE USŁUG HOSTINGOWYCH
+dla Systemu CRM
+
+zawarta w dniu ______________ roku w ______________ pomiędzy:
+
+____________________ z siedzibą w ______________, ul. ______________, __-___ ______________, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy ______________, ____ Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: ______________, NIP: ______________, REGON: ______________, kapitał zakładowy: ______________ zł, reprezentowaną przez:
+______________ – ______________
+zwaną dalej „Zleceniodawcą",
+
+a
+
+____________________ z siedzibą w ______________, ul. ______________, __-___ ______________, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy ______________, ____ Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: ______________, NIP: ______________, REGON: ______________, kapitał zakładowy: ______________ zł, reprezentowaną przez:
+______________ – ______________
+zwaną dalej „Dostawcą",
+
+zwanymi dalej łącznie „Stronami", a każda z osobna „Stroną",
+
+o następującej treści:
+
+§ 1
+PRZEDMIOT UMOWY
+
+1. Przedmiotem niniejszej Umowy jest świadczenie przez Dostawcę na rzecz Zleceniodawcy usług hostingowych dla Systemu CRM (zwanego dalej „Systemem"), wdrożonego przez ______________ na podstawie Umowy o dzieło z dnia ______________ roku.
+
+2. W ramach niniejszej Umowy Dostawca zobowiązuje się do świadczenia następujących usług:
+   a) Udostępnienia infrastruktury serwerowej w modelu chmury obliczeniowej;
+   b) Zarządzania infrastrukturą techniczną i jej monitorowania;
+   c) Zapewnienia dostępu do Systemu dla określonej liczby użytkowników;
+   d) Świadczenia wsparcia technicznego i utrzymania Systemu;
+   e) Zapewnienia bezpieczeństwa i ochrony danych;
+   f) Wykonywania kopii zapasowych;
+   g) Utrzymania odpowiednich parametrów wydajnościowych;
+   h) Aktualizacji oprogramowania systemowego i bazodanowego.
+
+3. Szczegółowy zakres usług oraz parametry techniczne określone są w Załączniku nr 1 do niniejszej Umowy.
+
+§ 2
+ROZPOCZĘCIE ŚWIADCZENIA USŁUG
+
+1. Dostawca rozpocznie świadczenie usług, o których mowa w § 1, z dniem zakończenia Etapu IV wdrożenia Systemu, potwierdzonego protokołem odbioru zgodnie z Umową o dzieło z dnia ______________ roku.
+
+2. Warunkiem rozpoczęcia świadczenia usług jest przekazanie Dostawcy przez Zleceniodawcę listy użytkowników uprawnionych do korzystania z Systemu wraz z określeniem przyznanych im poziomów dostępu, nie później niż na 7 dni przed planowaną datą rozpoczęcia świadczenia usług.
+
+§ 3
+POZIOM USŁUG (SLA)
+
+1. Dostawca gwarantuje następujące parametry świadczonych usług:
+   a) Dostępność Systemu na poziomie 99,9% w skali miesiąca, co oznacza, że łączny czas niedostępności Systemu nie przekroczy 43 minut w miesiącu, z wyłączeniem planowanych przerw serwisowych;
+   b) Planowane przerwy serwisowe będą realizowane w godzinach 22:00-6:00 i będą zapowiadane z co najmniej 48-godzinnym wyprzedzeniem;
+   c) Maksymalny czas pojedynczej planowanej przerwy serwisowej nie przekroczy 4 godzin;
+   d) Maksymalny czas reakcji na zgłoszenia awaryjne: 30 minut;
+   e) Maksymalny czas rozwiązania problemów krytycznych (uniemożliwiających korzystanie z Systemu): 4 godziny;
+   f) Maksymalny czas rozwiązania problemów poważnych (ograniczających funkcjonalność Systemu): 8 godzin;
+   g) Maksymalny czas rozwiązania problemów niekrytycznych: 24 godziny.
+
+2. Dokładne definicje kategorii problemów oraz procedury zgłaszania i obsługi incydentów określone są w Załączniku nr 2 do niniejszej Umowy.
+
+3. W przypadku niedotrzymania przez Dostawcę parametrów SLA określonych w ust. 1, Zleceniodawcy przysługuje prawo do kary umownej na zasadach określonych w § 8 niniejszej Umowy.
+
+§ 4
+BEZPIECZEŃSTWO I OCHRONA DANYCH
+
+1. Dostawca zobowiązuje się do stosowania odpowiednich środków technicznych i organizacyjnych zapewniających ochronę przetwarzanych danych, w tym ochronę przed nieuprawnionym dostępem, modyfikacją, usunięciem lub ujawnieniem.
+
+2. Dostawca gwarantuje zastosowanie następujących środków bezpieczeństwa:
+   a) Szyfrowanie danych w spoczynku i podczas transmisji (SSL/TLS);
+   b) Wielopoziomowa zapora sieciowa (firewall) i systemy wykrywania intruzów (IDS/IPS);
+   c) Kontrola dostępu oparta o zasadę najmniejszych uprawnień;
+   d) Regularne audyty bezpieczeństwa i testy penetracyjne;
+   e) Ochrona przed atakami typu DDoS;
+   f) Wieloczynnikowe uwierzytelnianie dla administratorów systemu;
+   g) Fizyczne zabezpieczenia centrum danych (kontrola dostępu, monitoring, systemy przeciwpożarowe, redundantne zasilanie);
+   h) Monitoring i rejestrowanie aktywności użytkowników w celu wykrywania nieautoryzowanych działań;
+   i) Regularne aktualizacje zabezpieczeń systemu operacyjnego i oprogramowania;
+   j) Izolacja środowisk produkcyjnych, testowych i rozwojowych.
+
+3. Dostawca będzie wykonywał kopie zapasowe całego Systemu i przechowywanych danych według następującego schematu:
+   a) Kopie przyrostowe – codziennie, przechowywane przez 14 dni;
+   b) Kopie pełne – tygodniowo, przechowywane przez 30 dni;
+   c) Kopie archiwalne – miesięcznie, przechowywane przez 12 miesięcy.
+
+4. Kopie zapasowe będą przechowywane w geograficznie odseparowanej lokalizacji w stosunku do podstawowej infrastruktury hostingowej.
+
+5. Dostawca gwarantuje możliwość odtworzenia Systemu z kopii zapasowej w czasie nie dłuższym niż 4 godziny od zgłoszenia takiej potrzeby.
+
+6. W przypadku wystąpienia incydentu bezpieczeństwa, Dostawca zobowiązuje się do:
+   a) Niezwłocznego poinformowania Zleceniodawcy o naruszeniu, nie później niż w ciągu 24 godzin od jego wykrycia;
+   b) Podjęcia natychmiastowych działań mających na celu ograniczenie skutków naruszenia;
+   c) Przeprowadzenia analizy przyczyn i konsekwencji naruszenia;
+   d) Wdrożenia środków zapobiegających podobnym incydentom w przyszłości.
+
+7. Dostawca zobowiązuje się przetwarzać dane osobowe zgodnie z przepisami Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych (RODO) oraz innymi obowiązującymi przepisami prawa.
+
+8. Szczegółowe zasady przetwarzania danych osobowych zostaną uregulowane w odrębnej umowie powierzenia przetwarzania danych, stanowiącej Załącznik nr 3 do niniejszej Umowy.
+
+§ 5
+CZAS TRWANIA UMOWY
+
+1. Umowa zostaje zawarta na czas nieokreślony, z zastrzeżeniem, że każda ze Stron może wypowiedzieć Umowę z zachowaniem 3-miesięcznego okresu wypowiedzenia, ze skutkiem na koniec miesiąca kalendarzowego.
+
+2. Dostawca zobowiązuje się do świadczenia usług od dnia określonego w § 2 ust. 1 niniejszej Umowy.
+
+3. W przypadku wypowiedzenia Umowy, Dostawca zobowiązuje się do:
+   a) Przekazania Zleceniodawcy lub wskazanemu przez niego podmiotowi aktualnej kopii całości danych z Systemu w uzgodnionym formacie;
+   b) Współpracy przy migracji Systemu do środowiska wskazanego przez Zleceniodawcę;
+   c) Nieodwracalnego usunięcia wszelkich danych Zleceniodawcy ze swojej infrastruktury po potwierdzeniu przez Zleceniodawcę prawidłowego odbioru danych.
+
+§ 6
+WYNAGRODZENIE
+
+1. Z tytułu świadczenia usług określonych w § 1 niniejszej Umowy, Zleceniodawca zapłaci Dostawcy miesięczne wynagrodzenie w wysokości 13 000,00 zł netto (słownie: trzynaście tysięcy złotych 00/100), powiększone o należny podatek VAT według stawki obowiązującej w dniu wystawienia faktury.
+
+2. Wynagrodzenie, o którym mowa w ust. 1, obejmuje świadczenie usług dla 10 (dziesięciu) użytkowników (stanowisk) Systemu. 
+
+3. Zwiększenie liczby użytkowników ponad limit określony w ust. 2 będzie skutkować proporcjonalnym zwiększeniem wynagrodzenia, zgodnie z cennikiem stanowiącym Załącznik nr 4 do niniejszej Umowy.
+
+4. W roku kalendarzowym 2025 wynagrodzenie, o którym mowa w ust. 1, zostanie obniżone o 25% i będzie wynosić 9 750,00 zł netto (słownie: dziewięć tysięcy siedemset pięćdziesiąt złotych 00/100) miesięcznie, powiększone o należny podatek VAT.
+
+5. Wynagrodzenie będzie płatne z góry, w cyklach miesięcznych, na podstawie faktury VAT wystawionej przez Dostawcę w pierwszym dniu miesiąca, za który należna jest opłata.
+
+6. Wynagrodzenie będzie płatne przelewem na rachunek bankowy Dostawcy wskazany na fakturze, w terminie 14 dni od daty doręczenia Zleceniodawcy prawidłowo wystawionej faktury VAT.
+
+7. Za dzień zapłaty uznaje się dzień obciążenia rachunku bankowego Zleceniodawcy.
+
+8. Dostawca zastrzega sobie prawo do zmiany wysokości wynagrodzenia, o którym mowa w ust. 1, nie częściej niż raz w roku kalendarzowym i nie więcej niż o wskaźnik wzrostu cen towarów i usług konsumpcyjnych ogłaszany przez Główny Urząd Statystyczny za poprzedni rok kalendarzowy, powiększony o 3 punkty procentowe.
+
+9. Zmiana wysokości wynagrodzenia, o której mowa w ust. 8, wymaga powiadomienia Zleceniodawcy z co najmniej 2-miesięcznym wyprzedzeniem.
+
+§ 7
+WSPARCIE TECHNICZNE
+
+1. Dostawca zapewnia wsparcie techniczne w zakresie infrastruktury, na której hostowany jest System, w trybie 24/7/365.
+
+2. Zgłoszenia awarii i problemów mogą być dokonywane przez upoważnionych przedstawicieli Zleceniodawcy za pośrednictwem:
+   a) Dedykowanego systemu zgłoszeń (helpdesk);
+   b) Poczty elektronicznej na adres: _______________;
+   c) Telefonicznie pod numerem: _______________ (dla zgłoszeń krytycznych).
+
+3. Dostawca zobowiązuje się do utrzymywania zespołu wsparcia technicznego składającego się z wykwalifikowanych administratorów systemów, administratorów baz danych i specjalistów ds. bezpieczeństwa.
+
+4. W ramach wsparcia technicznego Dostawca zapewnia:
+   a) Monitorowanie dostępności i wydajności Systemu 24/7;
+   b) Proaktywne reagowanie na anomalie i potencjalne problemy;
+   c) Diagnozowanie i rozwiązywanie problemów technicznych;
+   d) Zarządzanie aktualizacjami i poprawkami bezpieczeństwa;
+   e) Optymalizację wydajności;
+   f) Zarządzanie użytkownikami i uprawnieniami;
+   g) Doradztwo w zakresie architektury i konfiguracji Systemu.
+
+5. Dostawca będzie przesyłał Zleceniodawcy miesięczne raporty dotyczące świadczonych usług, zawierające informacje o:
+   a) Dostępności Systemu;
+   b) Czasie reakcji na zgłoszenia;
+   c) Incydentach i problemach;
+   d) Przeprowadzonych pracach konserwacyjnych;
+   e) Statystykach wydajnościowych;
+   f) Zużyciu zasobów;
+   g) Stanie kopii zapasowych.
+
+§ 8
+KARY UMOWNE I REKOMPENSATY
+
+1. W przypadku niedotrzymania parametrów SLA określonych w § 3 ust. 1, Dostawca zapłaci Zleceniodawcy kary umowne w następującej wysokości:
+   a) Za każdą rozpoczętą godzinę niedostępności Systemu ponad gwarantowany poziom – 3% miesięcznego wynagrodzenia netto;
+   b) Za każdą rozpoczętą godzinę opóźnienia w rozwiązaniu problemu krytycznego – 1% miesięcznego wynagrodzenia netto;
+   c) Za każdą rozpoczętą godzinę opóźnienia w rozwiązaniu problemu poważnego – 0,5% miesięcznego wynagrodzenia netto.
+
+2. Łączna wysokość kar umownych naliczonych w danym miesiącu nie może przekroczyć 50% miesięcznego wynagrodzenia netto.
+
+3. Kary umowne będą rozliczane poprzez obniżenie faktury za następny miesiąc świadczenia usług.
+
+4. Zleceniodawca może dochodzić odszkodowania przewyższającego wysokość kar umownych na zasadach ogólnych Kodeksu cywilnego.
+
+5. W przypadku trwającej dłużej niż 24 godziny niedostępności Systemu z przyczyn leżących po stronie Dostawcy, Zleceniodawca ma prawo do obniżenia miesięcznego wynagrodzenia o 1/30 za każdy dzień niedostępności.
+
+§ 9
+POUFNOŚĆ
+
+1. Strony zobowiązują się do zachowania w tajemnicy wszelkich informacji poufnych, które uzyskały w związku z zawarciem i wykonywaniem niniejszej Umowy.
+
+2. Za informacje poufne uważa się w szczególności:
+   a) Dane przechowywane w Systemie;
+   b) Parametry konfiguracyjne Systemu;
+   c) Dane uwierzytelniające;
+   d) Informacje dotyczące zabezpieczeń;
+   e) Informacje techniczne, technologiczne, organizacyjne, finansowe i handlowe, które nie zostały ujawnione do publicznej wiadomości.
+
+3. Zobowiązanie do zachowania poufności nie dotyczy informacji, które:
+   a) Były publicznie znane w momencie ich ujawnienia;
+   b) Muszą zostać ujawnione na żądanie uprawnionych organów państwowych lub sądowych;
+   c) Zostały niezależnie opracowane przez Stronę bez naruszenia zobowiązań wynikających z niniejszej Umowy.
+
+4. Dostawca zobowiązuje się do zapewnienia, że jego pracownicy, współpracownicy oraz podwykonawcy, którzy będą mieli dostęp do informacji poufnych, zostaną zobowiązani do zachowania ich w tajemnicy.
+
+5. Zobowiązanie do zachowania poufności obowiązuje przez okres wykonywania Umowy oraz przez okres 5 lat po jej wygaśnięciu lub rozwiązaniu.
+
+§ 10
+SIŁA WYŻSZA
+
+1. Żadna ze Stron nie będzie ponosić odpowiedzialności za niewykonanie lub nienależyte wykonanie zobowiązań wynikających z Umowy, spowodowane siłą wyższą, tj. zdarzeniem zewnętrznym, nieprzewidywalnym, niemożliwym do zapobieżenia, znajdującym się poza kontrolą Stron.
+
+2. Do zdarzeń siły wyższej zalicza się w szczególności: klęski żywiołowe, wojny, akty terroryzmu, strajki, zamieszki, ataki hakerskie o charakterze terrorystycznym, awarie zasilania na dużą skalę, działania władz państwowych uniemożliwiające wykonanie zobowiązań.
+
+3. Strona, która nie może wykonać swoich zobowiązań wskutek działania siły wyższej, zobowiązana jest niezwłocznie, nie później jednak niż w ciągu 24 godzin od zaistnienia takich okoliczności, poinformować drugą Stronę o tym fakcie, wskazując rodzaj siły wyższej oraz przewidywany czas trwania przeszkody w realizacji zobowiązań.
+
+4. W przypadku wystąpienia siły wyższej, Dostawca podejmie wszelkie ekonomicznie uzasadnione działania w celu ochrony danych Zleceniodawcy i przywrócenia dostępności Systemu w możliwie najkrótszym czasie.
+
+5. Jeżeli okoliczności siły wyższej uniemożliwiają świadczenie usług przez okres dłuższy niż 30 dni, każda ze Stron może odstąpić od Umowy, składając pisemne oświadczenie.
+
+§ 11
+ODPOWIEDZIALNOŚĆ
+
+1. Dostawca ponosi odpowiedzialność za szkody poniesione przez Zleceniodawcę, będące bezpośrednim następstwem niewykonania lub nienależytego wykonania zobowiązań wynikających z niniejszej Umowy.
+
+2. Odpowiedzialność Dostawcy za utratę lub uszkodzenie danych ograniczona jest do kosztów odtworzenia danych z kopii zapasowych, pod warunkiem regularnego wykonywania tych kopii zgodnie z § 4 ust. 3 niniejszej Umowy.
+
+3. Łączna odpowiedzialność Dostawcy z tytułu realizacji niniejszej Umowy ograniczona jest do kwoty stanowiącej równowartość 12-krotności miesięcznego wynagrodzenia netto określonego w § 6 ust. 1.
+
+4. Ograniczenie odpowiedzialności, o którym mowa w ust. 3, nie dotyczy szkód wyrządzonych z winy umyślnej lub rażącego niedbalstwa.
+
+5. Dostawca nie ponosi odpowiedzialności za:
+   a) Szkody wynikające z niewłaściwego użytkowania Systemu przez Zleceniodawcę lub użytkowników;
+   b) Utratę danych spowodowaną działaniem lub zaniechaniem Zleceniodawcy;
+   c) Przerwy w działaniu Systemu spowodowane zaplanowanymi pracami konserwacyjnymi, o których Zleceniodawca został wcześniej poinformowany;
+   d) Problemy wynikające z działania siły wyższej lub ataków zewnętrznych, którym nie można było zapobiec przy zachowaniu należytej staranności;
+   e) Straty pośrednie, utracone korzyści, utratę przychodów, utratę możliwości używania, utratę danych, utratę reputacji lub goodwill.
+
+§ 12
+ZMIANY UMOWY
+
+1. Wszelkie zmiany i uzupełnienia niniejszej Umowy wymagają formy pisemnej pod rygorem nieważności.
+
+2. Dostawca zastrzega sobie prawo do wprowadzania zmian w parametrach technicznych świadczonych usług, pod warunkiem, że zmiany te nie spowodują pogorszenia jakości świadczonych usług ani zmniejszenia funkcjonalności Systemu.
+
+3. O planowanych zmianach, o których mowa w ust. 2, Dostawca poinformuje Zleceniodawcę z co najmniej 30-dniowym wyprzedzeniem.
+
+§ 13
+POSTANOWIENIA KOŃCOWE
+
+1. Osobami odpowiedzialnymi za realizację Umowy są:
+   a) ze strony Zleceniodawcy: ______________, tel. ______________, e-mail: ______________;
+   b) ze strony Dostawcy: ______________, tel. ______________, e-mail: ______________.
+
+2. Zmiana osób, o których mowa w ust. 1, nie stanowi zmiany Umowy i wymaga jedynie pisemnego powiadomienia drugiej Strony.
+
+3. W sprawach nieuregulowanych niniejszą Umową mają zastosowanie przepisy Kodeksu cywilnego oraz inne właściwe przepisy prawa polskiego.
+
+4. Wszelkie spory wynikające z niniejszej Umowy Strony będą rozstrzygać polubownie, a w przypadku braku porozumienia, spory te będą rozstrzygane przez sąd powszechny właściwy dla siedziby Zleceniodawcy.
+
+5. Umowę sporządzono w dwóch jednobrzmiących egzemplarzach, po jednym dla każdej ze Stron.
+
+6. Załączniki stanowiące integralną część Umowy:
+   a) Załącznik nr 1 – Specyfikacja techniczna usług hostingowych;
+   b) Załącznik nr 2 – Procedury zgłaszania i obsługi incydentów;
+   c) Załącznik nr 3 – Umowa powierzenia przetwarzania danych osobowych;
+   d) Załącznik nr 4 – Cennik usług dodatkowych.
+
+
+_______________________                                _______________________
+    ZLECENIODAWCA                                           DOSTAWCA 

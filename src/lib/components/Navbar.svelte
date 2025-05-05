@@ -84,6 +84,18 @@
             O nas
           </a>
           <a 
+            href="/sprzedaje" 
+            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
+          >
+            Sprzedaję
+          </a>
+          <a 
+            href="/kupuje" 
+            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
+          >
+            Kupuję
+          </a>
+          <a 
             href="/kontakt" 
             class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
           >
@@ -159,6 +171,12 @@
         
         <a href="/o-nas" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           O nas
+        </a>
+        <a href="/sprzedaje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
+          Sprzedaję
+        </a>
+        <a href="/kupuje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
+          Kupuję
         </a>
         <a href="/kontakt" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           Kontakt

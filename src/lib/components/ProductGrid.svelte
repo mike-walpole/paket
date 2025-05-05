@@ -42,7 +42,7 @@
           <!-- Title and Description -->
           <div class="mb-8">
             <h3 class="text-lg mb-4 font-bold">
-              {category.title}
+             {category.title}
             </h3>
             <p class="text-lg leading-snug mb-24 h-[80px]">{category.description}</p>
           </div>

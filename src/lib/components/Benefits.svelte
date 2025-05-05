@@ -23,7 +23,7 @@
   <div class="mb-16">
     <h2 class="text-4xl md:text-5xl font-normal">Dlaczego warto wybrać Paket?</h2>
   </div>
-
+  
   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
     {#each benefits as benefit, index}
       <div class="flex">
@@ -37,7 +37,7 @@
       </div>
     {/each}
   </div>
-   
+  
   <div class="mt-16 text-center">
     <a href="/o-nas" class="inline-flex items-center px-8 py-3 border border-red-900 text-base font-medium rounded-full bg-transparent hover:bg-red-900 hover:text-white transition-colors duration-200">
       Poznaj nasz zespół

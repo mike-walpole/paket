@@ -1,0 +1,135 @@
+# Załącznik nr 1 do Umowy o świadczenie usług hostingowych
+# SPECYFIKACJA TECHNICZNA USŁUG HOSTINGOWYCH
+
+dla strony internetowej morzesolidarnosci.eu
+
+## 1. PARAMETRY HOSTINGU
+
+| Parametr | Wartość |
+|----------|---------|
+| Przestrzeń dyskowa | 100 GB SSD |
+| Miesięczny transfer danych | 1000 GB |
+| Liczba obsługiwanych domen | 5 (domena główna + 4 dodatkowe) |
+| Liczba kont e-mail | 50 |
+| Maksymalny rozmiar skrzynki e-mail | 10 GB |
+| Maksymalny rozmiar załącznika | 25 MB |
+
+## 2. PARAMETRY TECHNICZNE SERWERA
+
+| Parametr | Wartość |
+|----------|---------|
+| Procesor | 4 dedykowane rdzenie CPU |
+| Pamięć RAM | 16 GB RAM |
+| Typ dysku | SSD NVMe |
+| Lokalizacja serwera | Polska |
+| Łącze internetowe | 1 Gbps |
+| Gwarantowany uptime | 99,5% |
+
+## 3. OBSŁUGIWANE TECHNOLOGIE
+
+### 3.1. Obsługa języków i frameworków
+- PHP 7.4, 8.0, 8.1, 8.2
+- Node.js 14, 16, 18
+- Python 3.8, 3.9, 3.10
+- Ruby on Rails
+- Java
+- .NET Core
+
+### 3.2. Bazy danych
+- MySQL 8.0
+- MariaDB 10.5
+- PostgreSQL 14
+- MongoDB 5.0
+- Redis
+
+### 3.3. Serwery WWW
+- Nginx
+- Apache
+
+### 3.4. Certyfikaty SSL
+- Darmowy certyfikat Let's Encrypt
+- Możliwość instalacji certyfikatów komercyjnych
+
+### 3.5. Dodatkowe usługi
+- DNS Management
+- Subversion / Git
+- Cron Jobs
+- FTP/SFTP dostęp
+- Statystyki i logi serwera
+- Firewall aplikacyjny (WAF)
+
+## 4. DOSTĘP DO USŁUG
+
+### 4.1. Panel administracyjny
+- Dostęp przez przeglądarkę WWW
+- Dwustopniowa weryfikacja (2FA)
+- Dostęp do zarządzania bazami danych
+- Zarządzanie kontami e-mail
+- Zarządzanie domenami i DNS
+- Zarządzanie kopiami zapasowymi
+
+### 4.2. Dostęp do plików
+- FTP/SFTP
+- WebDAV
+- Git
+
+### 4.3. Dostęp do baz danych
+- phpMyAdmin
+- pgAdmin
+- Adminer
+- Bezpośredni dostęp przez port (IP whitelist)
+
+## 5. BEZPIECZEŃSTWO
+
+### 5.1. Zabezpieczenia infrastruktury
+- Firewall sprzętowy i programowy
+- Ochrona przed atakami DDoS
+- Monitorowanie ruchu sieciowego 24/7
+- Regularne aktualizacje oprogramowania serwerowego
+- Wykrywanie włamań (IDS/IPS)
+
+### 5.2. Zabezpieczenia aplikacji
+- Web Application Firewall (WAF)
+- Ochrona przed SQL Injection
+- Ochrona przed Cross-Site Scripting (XSS)
+- Ochrona przed Cross-Site Request Forgery (CSRF)
+- Skanowanie malware
+
+### 5.3. Kopie zapasowe
+- Codzienne kopie zapasowe (przechowywane przez 7 dni)
+- Tygodniowe kopie zapasowe (przechowywane przez 4 tygodnie)
+- Miesięczne kopie zapasowe (przechowywane przez 3 miesiące)
+- Replikacja kopii zapasowych w geograficznie odrębnej lokalizacji
+
+## 6. MONITORING I RAPORTOWANIE
+
+### 6.1. Monitoring
+- Ciągły monitoring dostępności usług (co 1 minutę)
+- Monitoring zużycia zasobów
+- Monitoring ruchu sieciowego
+- Alerty o awariach i zagrożeniach
+
+### 6.2. Raportowanie
+- Miesięczne raporty dostępności (SLA)
+- Statystyki wykorzystania zasobów
+- Statystyki ruchu na stronie
+- Zdarzenia bezpieczeństwa
+
+## 7. WSPARCIE TECHNICZNE
+
+### 7.1. Kanały wsparcia
+- System zgłoszeń (helpdesk)
+- E-mail
+- Telefon (w godzinach 8:00-18:00 w dni robocze)
+- Wsparcie awaryjne 24/7 (dla krytycznych awarii)
+
+### 7.2. Czasy reakcji
+- Zgłoszenia krytyczne: do 1 godziny (24/7)
+- Zgłoszenia pilne: do 4 godzin (w godzinach pracy)
+- Zgłoszenia standardowe: do 24 godzin (w godzinach pracy)
+- Zgłoszenia dotyczące zmian konfiguracyjnych: do 48 godzin (w godzinach pracy)
+
+_Niniejsza specyfikacja techniczna stanowi integralną część Umowy o świadczenie usług hostingowych._
+
+_________________________                     _________________________
+      USŁUGODAWCA                                   USŁUGOBIORCA 

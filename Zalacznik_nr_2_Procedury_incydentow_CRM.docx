@@ -1,0 +1,257 @@
+# Załącznik nr 2 do Umowy o świadczenie usług hostingowych
+# PROCEDURY ZGŁASZANIA I OBSŁUGI INCYDENTÓW
+
+dla Systemu CRM
+
+## 1. KLASYFIKACJA INCYDENTÓW
+
+### 1.1. Incydenty krytyczne
+Incydenty powodujące całkowitą niedostępność Systemu CRM dla wszystkich użytkowników lub utratę krytycznych funkcjonalności, w tym:
+- Całkowita niedostępność Systemu CRM
+- Całkowita niedostępność bazy danych
+- Niedostępność modułu sprzedaży lub obsługi klienta
+- Utrata danych lub ich uszkodzenie
+- Naruszenie bezpieczeństwa skutkujące wyciekiem danych
+- Atak DDoS uniemożliwiający dostęp do Systemu
+- Nieautoryzowany dostęp do danych klientów
+
+### 1.2. Incydenty pilne
+Incydenty powodujące znaczące ograniczenie funkcjonalności Systemu CRM lub jego istotnych elementów, w tym:
+- Spowolnienie działania Systemu CRM (czas odpowiedzi powyżej 5 sekund)
+- Częściowa niedostępność niektórych funkcji Systemu
+- Problemy z generowaniem raportów
+- Problemy z synchronizacją danych
+- Problemy z logowaniem użytkowników
+- Problemy z importem/eksportem danych
+- Błędy w kalkulacjach finansowych
+- Nieprawidłowe działanie automatyzacji i workflow
+
+### 1.3. Incydenty standardowe
+Drobne problemy nieograniczające kluczowych funkcjonalności Systemu CRM, w tym:
+- Drobne błędy w interfejsie użytkownika
+- Problemy z formatowaniem danych
+- Niewielkie opóźnienia w działaniu Systemu
+- Problemy z niekrytycznymi funkcjami raportowania
+- Błędy z pojedynczymi kontami użytkowników
+- Drobne problemy z notyfikacjami
+- Błędy w dokumentacji online
+
+### 1.4. Zgłoszenia dotyczące zmian konfiguracyjnych
+Wszelkie prośby dotyczące zmian w konfiguracji Systemu CRM, w tym:
+- Utworzenie nowych użytkowników i nadanie uprawnień
+- Konfiguracja nowych procesów biznesowych
+- Zmiany w strukturze organizacyjnej
+- Modyfikacja szablonów dokumentów
+- Dodanie nowych pól do formularzy
+- Konfiguracja integracji z zewnętrznymi systemami
+- Zmiany w ustawieniach zabezpieczeń
+
+## 2. KANAŁY ZGŁASZANIA INCYDENTÓW
+
+### 2.1. System zgłoszeń (helpdesk)
+- Dostępny pod adresem: [adres portalu helpdesk]
+- Dostępny 24/7/365
+- Preferowany kanał dla wszystkich rodzajów zgłoszeń
+- Automatyczne nadawanie priorytetów i numerów zgłoszeń
+- Historia komunikacji i status zgłoszenia dostępny w panelu klienta
+- Możliwość załączania zrzutów ekranu i plików
+
+### 2.2. E-mail
+- Adres dla zgłoszeń krytycznych: crm-emergency@firma.pl
+- Adres dla pozostałych zgłoszeń: crm-support@firma.pl
+- Dostępny 24/7/365
+- Automatyczne potwierdzenie otrzymania zgłoszenia
+- Konwersja zgłoszeń e-mail do systemu helpdesk
+
+### 2.3. Telefon
+- Numer dla zgłoszeń krytycznych (24/7): +48 ___________
+- Numer dla zgłoszeń w godzinach pracy (8:00-18:00): +48 ___________
+- Zgłoszenia telefoniczne wymagają potwierdzenia w systemie zgłoszeń lub e-mailem
+- Każde zgłoszenie telefoniczne otrzymuje unikalny identyfikator
+
+## 3. PROCEDURA OBSŁUGI INCYDENTÓW
+
+### 3.1. Zgłaszanie incydentu
+1. Usługobiorca dokonuje zgłoszenia poprzez jeden z dostępnych kanałów komunikacji.
+2. W zgłoszeniu należy zawrzeć:
+   - Szczegółowy opis problemu
+   - Datę i godzinę wystąpienia incydentu
+   - Moduł Systemu CRM, którego dotyczy problem
+   - Dane użytkownika doświadczającego problemu (login, numer ID)
+   - Kroki prowadzące do odtworzenia problemu
+   - Zrzuty ekranu ilustrujące problem
+   - Informacje o środowisku użytkownika (przeglądarka, system, urządzenie)
+   - Proponowaną kategorię incydentu (krytyczny, pilny, standardowy)
+   - Szacowany wpływ na procesy biznesowe
+
+### 3.2. Przyjęcie i klasyfikacja zgłoszenia
+1. Usługodawca potwierdza otrzymanie zgłoszenia w czasie określonym dla danej kategorii incydentu.
+2. Zgłoszenie zostaje zarejestrowane w systemie z unikalnym numerem.
+3. Usługodawca dokonuje weryfikacji i klasyfikacji zgłoszenia.
+4. Usługobiorca otrzymuje informację o nadanej kategorii incydentu oraz przewidywanym czasie obsługi.
+5. Dla incydentów krytycznych Usługodawca natychmiast informuje dedykowanego opiekuna Usługobiorcy.
+
+### 3.3. Diagnostyka i rozwiązanie
+1. Usługodawca podejmuje działania diagnostyczne zgodnie z priorytetem zgłoszenia.
+2. Usługobiorca zostaje poinformowany o statusie prac oraz ewentualnej potrzebie dodatkowych informacji.
+3. W przypadku incydentów krytycznych, Usługodawca kontaktuje się z Usługobiorcą bezpośrednio (telefonicznie) z informacją o postępach, nie rzadziej niż co godzinę.
+4. Po zidentyfikowaniu przyczyny problemu, Usługodawca podejmuje działania naprawcze.
+5. W przypadku gdy rozwiązanie wymaga dłuższego czasu, Usługodawca wdraża rozwiązanie tymczasowe, aby zminimalizować wpływ na działanie Systemu CRM.
+6. Dla złożonych problemów Usługodawca może utworzyć dedykowany zespół składający się ze specjalistów różnych dziedzin.
+
+### 3.4. Weryfikacja i zamknięcie zgłoszenia
+1. Po wdrożeniu rozwiązania, Usługodawca przeprowadza testy weryfikujące.
+2. Usługobiorca otrzymuje informację o rozwiązaniu problemu wraz z opisem podjętych działań.
+3. Usługobiorca weryfikuje rozwiązanie i potwierdza jego skuteczność lub zgłasza uwagi.
+4. Po potwierdzeniu rozwiązania zgłoszenie zostaje zamknięte.
+5. W przypadku braku odpowiedzi Usługobiorcy przez 3 dni robocze, zgłoszenie zostaje automatycznie zamknięte z możliwością ponownego otwarcia.
+6. Dla incydentów krytycznych wymagane jest formalne potwierdzenie ze strony Usługobiorcy.
+
+## 4. CZASY REAKCJI I ROZWIĄZANIA
+
+### 4.1. Incydenty krytyczne
+- Czas reakcji: do 30 minut (24/7/365)
+- Czas rozwiązania: do 4 godzin (24/7/365)
+- Czas wdrożenia rozwiązania tymczasowego: do 2 godzin
+- Aktualizacje statusu: co 1 godzinę
+- Zaangażowanie: Dedykowany zespół ze specjalistami ds. baz danych, sieci i bezpieczeństwa
+
+### 4.2. Incydenty pilne
+- Czas reakcji: do 4 godzin (w godzinach pracy 8:00-18:00 w dni robocze)
+- Czas rozwiązania: do 8 godzin (w godzinach pracy)
+- Czas wdrożenia rozwiązania tymczasowego: do 6 godzin
+- Aktualizacje statusu: co 4 godziny (w godzinach pracy)
+- Zaangażowanie: Dedykowany specjalista z odpowiednim wsparciem technicznym
+
+### 4.3. Incydenty standardowe
+- Czas reakcji: do 24 godzin (w godzinach pracy)
+- Czas rozwiązania: do 3 dni roboczych
+- Aktualizacje statusu: codziennie (w godzinach pracy)
+- Zaangażowanie: Specjalista pierwszej linii wsparcia
+
+### 4.4. Zgłoszenia dotyczące zmian konfiguracyjnych
+- Czas reakcji: do 48 godzin (w godzinach pracy)
+- Czas realizacji: uzależniony od złożoności zmiany, ustalany indywidualnie
+- Aktualizacje statusu: co 2 dni robocze
+- Zaangażowanie: Konsultant CRM lub administrator systemu
+
+## 5. ESKALACJA ZGŁOSZEŃ
+
+### 5.1. Procedura eskalacji
+1. W przypadku przekroczenia deklarowanego czasu reakcji lub rozwiązania, Usługobiorca ma prawo do eskalacji zgłoszenia.
+2. Eskalacja może nastąpić również w przypadku pogorszenia się sytuacji lub niedostatecznej jakości obsługi.
+3. Każdy poziom eskalacji wymaga reakcji w ciągu 30 minut dla incydentów krytycznych i 4 godzin dla pozostałych.
+
+### 5.2. Poziomy eskalacji
+- Poziom 1: Kierownik wsparcia technicznego
+  Kontakt: [imię i nazwisko], tel: [numer], email: [adres]
+  
+- Poziom 2: Dyrektor działu IT
+  Kontakt: [imię i nazwisko], tel: [numer], email: [adres]
+  
+- Poziom 3: Członek Zarządu
+  Kontakt: [imię i nazwisko], tel: [numer], email: [adres]
+
+### 5.3. Procedura automatycznej eskalacji
+1. Jeśli incydent krytyczny nie zostanie rozwiązany w ciągu 4 godzin, następuje automatyczna eskalacja do Poziomu 2.
+2. Jeśli incydent krytyczny nie zostanie rozwiązany w ciągu 8 godzin, następuje automatyczna eskalacja do Poziomu 3.
+3. Dla incydentów pilnych automatyczna eskalacja następuje po upływie 16 godzin pracy (Poziom 2).
+
+## 6. RAPORTY I ANALIZA INCYDENTÓW
+
+### 6.1. Raporty okresowe
+Usługodawca sporządza i dostarcza Usługobiorcy miesięczne raporty zawierające:
+- Liczbę zgłoszonych incydentów w podziale na kategorie
+- Średni czas reakcji i rozwiązania dla każdej kategorii
+- Poziom dotrzymania SLA
+- Trendy i statystyki incydentów
+- Pomiary dostępności Systemu CRM
+- Pomiary wydajności kluczowych funkcji
+- Analiza najczęstszych typów incydentów
+
+### 6.2. Analiza przyczyn źródłowych
+1. Dla incydentów krytycznych oraz powtarzających się incydentów pilnych, Usługodawca przeprowadza analizę przyczyn źródłowych (Root Cause Analysis).
+2. Raport z analizy jest udostępniany Usługobiorcy w ciągu 5 dni roboczych od rozwiązania incydentu.
+3. Raport zawiera:
+   - Opis incydentu
+   - Chronologię zdarzeń
+   - Zidentyfikowane przyczyny bezpośrednie i pośrednie
+   - Wpływ na działanie Systemu CRM i procesy biznesowe
+   - Podjęte działania naprawcze
+   - Rekomendacje zapobiegające podobnym incydentom w przyszłości
+   - Plan wdrożenia rekomendacji z harmonogramem
+
+### 6.3. Przeglądy jakości
+1. Kwartalnie odbywają się przeglądy jakości obsługi incydentów.
+2. W przeglądach uczestniczą przedstawiciele Usługodawcy i Usługobiorcy.
+3. Celem przeglądów jest identyfikacja obszarów wymagających poprawy.
+4. Wnioski z przeglądów są dokumentowane i monitorowane.
+
+## 7. ZARZĄDZANIE INCYDENTAMI BEZPIECZEŃSTWA
+
+### 7.1. Definicja incydentu bezpieczeństwa
+Incydentem bezpieczeństwa jest każde zdarzenie, które ma lub może mieć wpływ na poufność, integralność lub dostępność danych przetwarzanych w Systemie CRM, w tym:
+- Nieautoryzowany dostęp do Systemu CRM
+- Wykrycie złośliwego oprogramowania
+- Ataki typu phishing, social engineering
+- Wycieki danych
+- Utrata urządzeń z dostępem do Systemu CRM
+- Nieautoryzowane modyfikacje danych
+
+### 7.2. Procedura obsługi incydentów bezpieczeństwa
+1. Każdy incydent bezpieczeństwa jest traktowany jako krytyczny.
+2. Po wykryciu incydentu następuje natychmiastowe powiadomienie zespołu bezpieczeństwa.
+3. Podejmowane są działania zabezpieczające i ograniczające skutki incydentu.
+4. Zbierane są dowody i dokumentacja incydentu.
+5. Przeprowadzana jest analiza zakresu naruszenia.
+6. Wdrażane są działania naprawcze.
+7. W razie konieczności dokonywane jest zgłoszenie do odpowiednich organów.
+
+### 7.3. Powiadomienia o incydentach bezpieczeństwa
+1. O incydentach bezpieczeństwa Usługobiorca jest informowany niezwłocznie, nie później niż w ciągu 24 godzin od wykrycia.
+2. W przypadku naruszenia ochrony danych osobowych, zawiadomienie następuje zgodnie z art. 33 RODO.
+3. Informacja o incydencie zawiera:
+   - Opis charakteru naruszenia
+   - Dane kontaktowe do osoby odpowiedzialnej
+   - Opis możliwych konsekwencji
+   - Opis podjętych lub proponowanych działań
+   - Zalecenia dla użytkowników Systemu CRM
+
+## 8. PROCEDURY TESTOWANIA I ĆWICZENIA
+
+### 8.1. Testy procedur odtwarzania
+1. Raz na kwartał przeprowadzane są testy odtwarzania Systemu CRM z kopii zapasowych.
+2. Testy obejmują weryfikację kompletności i integralności odtworzonych danych.
+3. Wyniki testów są dokumentowane i udostępniane Usługobiorcy.
+
+### 8.2. Symulacje incydentów
+1. Raz na pół roku organizowane są symulacje obsługi incydentów krytycznych.
+2. Symulacje obejmują wszystkie etapy obsługi incydentu.
+3. Po symulacji przeprowadzana jest analiza i omówienie działań.
+
+### 8.3. Audyty procedur
+1. Raz w roku przeprowadzany jest audyt procedur obsługi incydentów.
+2. Audyt weryfikuje aktualność, kompletność i skuteczność procedur.
+3. Na podstawie audytu wprowadzane są ulepszenia procedur.
+
+## 9. USŁUGI DODATKOWE
+
+### 9.1. Wsparcie niestandardowe
+Za usługi wykraczające poza standardowy zakres obsługi incydentów, Usługodawca pobiera dodatkową opłatę w wysokości określonej w Załączniku nr 4 (Cennik usług dodatkowych), w tym:
+- Odzyskiwanie danych na życzenie Usługobiorcy
+- Niestandardowe konfiguracje
+- Migracja danych spoza zakresu umowy
+- Szkolenia indywidualne
+- Audyty bezpieczeństwa
+- Optymalizacja wydajności Systemu CRM
+- Tworzenie niestandardowych raportów
+
+### 9.2. Usługi konsultacyjne
+1. Usługodawca oferuje usługi konsultacyjne dotyczące optymalizacji procesów biznesowych w Systemie CRM.
+2. Usługi konsultacyjne świadczone są przez certyfikowanych specjalistów.
+3. Usługi konsultacyjne rozliczane są zgodnie z Cennikiem usług dodatkowych.
+
+_Niniejsza procedura zgłaszania i obsługi incydentów stanowi integralną część Umowy o świadczenie usług hostingowych dla Systemu CRM._
+
+_________________________                     _________________________
+      USŁUGODAWCA                                   USŁUGOBIORCA 

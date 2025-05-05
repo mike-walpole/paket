@@ -1,0 +1,182 @@
+# Załącznik nr 3 do Umowy o świadczenie usług hostingowych
+# UMOWA POWIERZENIA PRZETWARZANIA DANYCH OSOBOWYCH
+
+zawarta w dniu ______________ roku w ______________ pomiędzy:
+
+____________________ z siedzibą w ______________, ul. ______________, __-___ ______________, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy ______________, ____ Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: ______________, NIP: ______________, REGON: ______________, reprezentowaną przez:
+______________ – ______________
+zwaną dalej „Administratorem",
+
+a
+
+____________________ z siedzibą w ______________, ul. ______________, __-___ ______________, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy ______________, ____ Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: ______________, NIP: ______________, REGON: ______________, reprezentowaną przez:
+______________ – ______________
+zwaną dalej „Podmiotem przetwarzającym",
+
+zwanymi dalej łącznie „Stronami", a każda z osobna „Stroną",
+
+o następującej treści:
+
+## § 1 PRZEDMIOT UMOWY
+
+1. Administrator powierza Podmiotowi przetwarzającemu, w trybie art. 28 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych), zwanego dalej „RODO", dane osobowe do przetwarzania, na zasadach i w celu określonym w niniejszej Umowie.
+
+2. Podmiot przetwarzający zobowiązuje się przetwarzać powierzone mu dane osobowe zgodnie z niniejszą Umową, RODO oraz z innymi przepisami prawa powszechnie obowiązującego, które chronią prawa osób, których dane dotyczą.
+
+3. Podmiot przetwarzający oświadcza, że stosuje środki bezpieczeństwa spełniające wymogi RODO oraz innych przepisów prawa powszechnie obowiązującego dotyczącego ochrony danych osobowych.
+
+4. Przetwarzanie danych osobowych przez Podmiot przetwarzający odbywać się będzie wyłącznie na udokumentowane polecenie Administratora, co dotyczy także przekazywania danych do państwa trzeciego lub organizacji międzynarodowej.
+
+## § 2 ZAKRES I CEL PRZETWARZANIA DANYCH
+
+1. Podmiot przetwarzający będzie przetwarzał powierzone na podstawie niniejszej Umowy dane:
+   a) Dane zwykłe klientów i potencjalnych klientów:
+      - imię i nazwisko
+      - adres zamieszkania lub pobytu
+      - adres korespondencyjny
+      - adres e-mail
+      - numer telefonu
+      - PESEL
+      - NIP
+      - dane identyfikacyjne firmy
+      - stanowisko
+      - historia transakcji i zakupów
+      - historia komunikacji
+      - preferencje zakupowe
+   b) Dane zwykłe pracowników i współpracowników Administratora:
+      - imię i nazwisko
+      - adres e-mail
+      - numer telefonu
+      - stanowisko
+      - identyfikator użytkownika
+      - historia logowań i działań w systemie
+   c) Dane szczególnych kategorii (jeśli występują):
+      - informacje o stanie zdrowia (w zakresie niezbędnym do realizacji umów)
+      - inne dane, które mogą zostać wprowadzone do systemu CRM
+
+2. Powierzone przez Administratora dane osobowe będą przetwarzane przez Podmiot przetwarzający wyłącznie w celu realizacji Umowy o świadczenie usług hostingowych z dnia ______________, dotyczącej Systemu CRM, w szczególności w celu:
+   a) Zapewnienia dostępności Systemu CRM
+   b) Zarządzania infrastrukturą techniczną, na której działa System CRM
+   c) Wykonywania i przechowywania kopii zapasowych
+   d) Zapewnienia bezpieczeństwa danych
+   e) Świadczenia wsparcia technicznego
+   f) Rozwiązywania problemów technicznych
+   g) Monitorowania wydajności i dostępności Systemu CRM
+
+3. Podmiot przetwarzający będzie przetwarzał powierzone dane osobowe w formie elektronicznej w systemach informatycznych, w szczególności:
+   a) W systemach bazodanowych
+   b) W systemach kopii zapasowych
+   c) W systemach monitoringu i logowania
+   d) W systemach zarządzania infrastrukturą
+   e) W narzędziach administracyjnych i diagnostycznych
+
+## § 3 OBOWIĄZKI PODMIOTU PRZETWARZAJĄCEGO
+
+1. Podmiot przetwarzający zobowiązuje się, przy przetwarzaniu powierzonych danych osobowych, do ich zabezpieczenia poprzez stosowanie odpowiednich środków technicznych i organizacyjnych zapewniających adekwatny stopień bezpieczeństwa odpowiadający ryzyku związanemu z przetwarzaniem danych osobowych, o których mowa w art. 32 RODO, w tym między innymi:
+   a) Szyfrowanie danych osobowych
+   b) Zdolność do ciągłego zapewnienia poufności, integralności, dostępności i odporności systemów i usług przetwarzania
+   c) Zdolność do szybkiego przywrócenia dostępności danych osobowych i dostępu do nich w razie incydentu fizycznego lub technicznego
+   d) Regularne testowanie, mierzenie i ocenianie skuteczności środków technicznych i organizacyjnych
+
+2. Podmiot przetwarzający zobowiązuje się do nadania upoważnień do przetwarzania danych osobowych wszystkim osobom, które będą przetwarzały powierzone dane w celu realizacji niniejszej Umowy. Upoważnienia będą obejmować wyłącznie zakres niezbędny do realizacji zadań związanych z przetwarzaniem powierzonych danych.
+
+3. Podmiot przetwarzający zobowiązuje się zapewnić, że osoby, które upoważnia do przetwarzania danych osobowych, zobowiążą się do zachowania tajemnicy lub będą podlegały odpowiedniemu ustawowemu obowiązkowi zachowania tajemnicy, zgodnie z art. 28 ust. 3 lit. b) RODO, zarówno w trakcie zatrudnienia jak i po jego ustaniu.
+
+4. Podmiot przetwarzający po zakończeniu świadczenia usług związanych z przetwarzaniem, zależnie od decyzji Administratora, usuwa lub zwraca mu wszelkie dane osobowe oraz usuwa wszelkie ich istniejące kopie, chyba że prawo Unii lub prawo państwa członkowskiego nakazują przechowywanie danych osobowych. Zwrot lub usunięcie danych nastąpi w terminie 30 dni od zakończenia Umowy.
+
+5. Podmiot przetwarzający zobowiązuje się pomagać Administratorowi w wywiązywaniu się z obowiązków określonych w art. 32-36 RODO, w szczególności:
+   a) W zapewnieniu bezpieczeństwa przetwarzania
+   b) W zgłaszaniu naruszeń ochrony danych osobowych organowi nadzorczemu oraz zawiadamianiu osób, których dane dotyczą
+   c) W dokonywaniu oceny skutków dla ochrony danych oraz konsultacjach z organem nadzorczym
+
+6. Podmiot przetwarzający, uwzględniając charakter przetwarzania oraz dostępne mu informacje, pomaga Administratorowi wywiązać się z obowiązku odpowiadania na żądania osoby, której dane dotyczą, w zakresie wykonywania jej praw określonych w rozdziale III RODO, w szczególności prawa dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych, sprzeciwu oraz niepodlegania decyzji opartej wyłącznie na zautomatyzowanym przetwarzaniu, w tym profilowaniu.
+
+7. Podmiot przetwarzający zobowiązuje się do dokumentowania wszelkich naruszeń ochrony powierzonych danych osobowych, w tym okoliczności naruszenia, jego skutków oraz podjętych działań zaradczych.
+
+8. Podmiot przetwarzający, po stwierdzeniu naruszenia ochrony danych osobowych, zgłasza je Administratorowi bez zbędnej zwłoki, nie później jednak niż w ciągu 24 godzin od stwierdzenia naruszenia. Zgłoszenie powinno zawierać informacje wymagane w art. 33 ust. 3 RODO.
+
+## § 4 PRAWO KONTROLI
+
+1. Administrator, zgodnie z art. 28 ust. 3 lit. h) RODO, ma prawo kontroli, czy środki zastosowane przez Podmiot przetwarzający przy przetwarzaniu i zabezpieczeniu powierzonych danych osobowych spełniają postanowienia Umowy i RODO.
+
+2. Administrator będzie realizować prawo kontroli w godzinach pracy Podmiotu przetwarzającego, po uprzednim poinformowaniu Podmiotu przetwarzającego o planowanej kontroli z minimum 7-dniowym wyprzedzeniem.
+
+3. W nagłych przypadkach, w szczególności w przypadku podejrzenia wystąpienia naruszenia ochrony danych osobowych, Administrator ma prawo przeprowadzenia kontroli bez uprzedniego powiadomienia.
+
+4. Podmiot przetwarzający zobowiązuje się do usunięcia uchybień stwierdzonych podczas kontroli w terminie wskazanym przez Administratora, nie dłuższym niż 14 dni.
+
+5. Podmiot przetwarzający udostępnia Administratorowi wszelkie informacje niezbędne do wykazania spełnienia obowiązków określonych w art. 28 RODO oraz umożliwia Administratorowi lub audytorowi upoważnionemu przez Administratora przeprowadzanie audytów, w tym inspekcji, i przyczynia się do nich.
+
+6. W przypadku kontroli prowadzonej przez organ nadzorczy u Administratora, która dotyczy przetwarzania powierzonych danych osobowych, Podmiot przetwarzający zobowiązuje się do udzielenia Administratorowi wszelkiej niezbędnej pomocy.
+
+## § 5 DALSZE POWIERZENIE DANYCH DO PRZETWARZANIA
+
+1. Podmiot przetwarzający może powierzyć dane osobowe objęte niniejszą Umową do dalszego przetwarzania podwykonawcom jedynie w celu wykonania Umowy, po uzyskaniu uprzedniej pisemnej zgody Administratora.
+
+2. Lista podwykonawców zaakceptowanych przez Administratora na dzień podpisania Umowy stanowi Załącznik nr 1 do niniejszej Umowy.
+
+3. Przekazanie powierzonych danych do państwa trzeciego lub organizacji międzynarodowej może nastąpić jedynie na udokumentowane polecenie Administratora, chyba że obowiązek taki nakłada na Podmiot przetwarzający prawo Unii lub prawo państwa członkowskiego, któremu podlega Podmiot przetwarzający. W takim przypadku przed rozpoczęciem przetwarzania Podmiot przetwarzający informuje Administratora o tym obowiązku prawnym, o ile prawo to nie zabrania udzielania takiej informacji z uwagi na ważny interes publiczny.
+
+4. W przypadku konieczności przekazania danych do państwa trzeciego, Podmiot przetwarzający zapewni spełnienie wymogów rozdziału V RODO, w szczególności dotyczących stosowania odpowiednich zabezpieczeń.
+
+5. Podwykonawca, o którym mowa w ust. 1, winien spełniać te same gwarancje i obowiązki, jakie zostały nałożone na Podmiot przetwarzający w niniejszej Umowie. Umowa z podwykonawcą powinna zawierać wszystkie wymagania dotyczące ochrony danych osobowych określone w niniejszej Umowie.
+
+6. Podmiot przetwarzający ponosi pełną odpowiedzialność wobec Administratora za niewywiązanie się ze spoczywających na podwykonawcy obowiązków ochrony danych.
+
+7. Zmiana lub dodanie podwykonawcy przetwarzającego dane osobowe wymaga uprzedniej pisemnej zgody Administratora.
+
+## § 6 ODPOWIEDZIALNOŚĆ PODMIOTU PRZETWARZAJĄCEGO
+
+1. Podmiot przetwarzający jest odpowiedzialny za udostępnienie lub wykorzystanie danych osobowych niezgodnie z treścią Umowy, a w szczególności za udostępnienie powierzonych do przetwarzania danych osobowych osobom nieupoważnionym.
+
+2. Podmiot przetwarzający zobowiązuje się do niezwłocznego poinformowania Administratora o jakimkolwiek postępowaniu, w szczególności administracyjnym lub sądowym, dotyczącym przetwarzania przez Podmiot przetwarzający danych osobowych określonych w Umowie, o jakiejkolwiek decyzji administracyjnej lub orzeczeniu dotyczącym przetwarzania tych danych, skierowanym do Podmiotu przetwarzającego, a także o wszelkich planowanych, o ile są wiadome, lub realizowanych kontrolach i inspekcjach dotyczących przetwarzania w Podmiocie przetwarzającym tych danych osobowych.
+
+3. Podmiot przetwarzający odpowiada za szkody spowodowane przetwarzaniem danych osobowych w sposób naruszający przepisy RODO, jeśli nie dopełnił obowiązków nałożonych na niego przez RODO lub gdy działał poza zgodnymi z prawem instrukcjami Administratora lub wbrew tym instrukcjom.
+
+4. W przypadku, gdy za szkodę spowodowaną przetwarzaniem odpowiadają zarówno Administrator, jak i Podmiot przetwarzający, ponoszą oni odpowiedzialność solidarną za całą szkodę.
+
+5. W przypadku, gdy Administrator zapłacił odszkodowanie za całą wyrządzoną szkodę, ma prawo żądania od Podmiotu przetwarzającego zwrotu części odszkodowania odpowiadającej części szkody, za którą ponosi on odpowiedzialność.
+
+6. Podmiot przetwarzający zobowiązuje się do posiadania i utrzymywania przez cały okres obowiązywania Umowy ubezpieczenia odpowiedzialności cywilnej w zakresie prowadzonej działalności związanej z przedmiotem umowy na sumę ubezpieczenia nie mniejszą niż __________________ zł.
+
+## § 7 ZACHOWANIE POUFNOŚCI
+
+1. Podmiot przetwarzający zobowiązuje się do zachowania w tajemnicy wszelkich informacji, danych, materiałów, dokumentów i danych osobowych otrzymanych od Administratora i od współpracujących z nim osób oraz danych uzyskanych w jakikolwiek inny sposób, zamierzony czy przypadkowy, w formie ustnej, pisemnej lub elektronicznej („dane poufne").
+
+2. Podmiot przetwarzający oświadcza, że w związku ze zobowiązaniem do zachowania w tajemnicy danych poufnych nie będą one wykorzystywane, ujawniane ani udostępniane bez pisemnej zgody Administratora w innym celu niż wykonanie Umowy, chyba że konieczność ujawnienia posiadanych informacji wynika z obowiązujących przepisów prawa lub Umowy.
+
+3. Zobowiązanie do zachowania poufności obejmuje również dane uzyskane przez Podmiot przetwarzający w trakcie wykonywania umów wsparcia technicznego, serwisowych oraz innych umów wykonywanych w związku z realizacją Umowy głównej.
+
+4. Strony zobowiązują się do dołożenia wszelkich starań w celu zapewnienia, aby środki łączności wykorzystywane do odbioru, przekazywania oraz przechowywania danych poufnych gwarantowały zabezpieczenie danych poufnych w tym w szczególności danych osobowych powierzonych do przetwarzania, przed dostępem osób trzecich nieupoważnionych do zapoznania się z ich treścią.
+
+## § 8 CZAS OBOWIĄZYWANIA UMOWY
+
+1. Niniejsza Umowa obowiązuje od dnia jej zawarcia przez okres obowiązywania Umowy o świadczenie usług hostingowych, z zastrzeżeniem ust. 2.
+
+2. W przypadku, gdy po zakończeniu Umowy głównej, Podmiot przetwarzający będzie przechowywał dane osobowe przekazane przez Administratora (np. w formie kopii zapasowych), niniejsza Umowa obowiązuje do momentu usunięcia lub zwrotu wszystkich danych osobowych Administratorowi.
+
+3. Administrator może rozwiązać niniejszą Umowę ze skutkiem natychmiastowym, gdy Podmiot przetwarzający:
+   a) pomimo zobowiązania go do usunięcia uchybień stwierdzonych podczas kontroli nie usunie ich w wyznaczonym terminie;
+   b) przetwarza dane osobowe w sposób niezgodny z Umową;
+   c) powierzył przetwarzanie danych osobowych innemu podmiotowi bez zgody Administratora.
+
+## § 9 POSTANOWIENIA KOŃCOWE
+
+1. Wszelkie zmiany niniejszej Umowy wymagają formy pisemnej pod rygorem nieważności.
+
+2. Podmiot przetwarzający nie może przenieść praw i obowiązków wynikających z niniejszej Umowy bez pisemnej zgody Administratora.
+
+3. Administratorem danych osobowych przedstawicieli Podmiotu przetwarzającego oraz osób wskazanych do kontaktu, pozyskanych w związku z zawarciem i wykonywaniem niniejszej Umowy, jest Administrator. Podmiot przetwarzający zobowiązuje się do przekazania tym osobom klauzuli informacyjnej dostarczonej przez Administratora.
+
+4. W sprawach nieuregulowanych niniejszą Umową mają zastosowanie przepisy RODO oraz inne przepisy obowiązującego prawa.
+
+5. Spory związane z wykonywaniem niniejszej Umowy rozstrzygane będą przez sąd właściwy dla siedziby Administratora.
+
+6. Umowę sporządzono w dwóch jednobrzmiących egzemplarzach, po jednym dla każdej ze Stron.
+
+7. Załączniki stanowiące integralną część Umowy:
+   a) Załącznik nr 1 - Lista zaakceptowanych podwykonawców przetwarzających dane osobowe
+
+
+_________________________                     _________________________
+     ADMINISTRATOR                               PODMIOT PRZETWARZAJĄCY 

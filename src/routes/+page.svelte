@@ -35,7 +35,7 @@
   <!-- Hero Image -->
   <div class="absolute inset-0 z-0">
     <img 
-      src="/budsol1.avif" 
+      src="/3.png" 
       alt="Paket - Twoje zaufane biuro nieruchomości" 
       class="w-full h-full object-cover"
     />
@@ -81,7 +81,7 @@
 </div>
 <Investors />
 <Benefits />
-<LogosWall />
+
 <Testimonial />
 <DeliverySolution />
 

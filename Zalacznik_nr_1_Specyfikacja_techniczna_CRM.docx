@@ -1,0 +1,224 @@
+# Załącznik nr 1 do Umowy o świadczenie usług hostingowych
+# SPECYFIKACJA TECHNICZNA USŁUG HOSTINGOWYCH
+
+dla Systemu CRM
+
+## 1. PARAMETRY ROZWIĄZANIA SERVERLESS
+
+| Parametr | Wartość |
+|----------|---------|
+| Architektura | AWS Serverless |
+| Przestrzeń dyskowa | Dynamiczna, skalowana automatycznie |
+| Miesięczny transfer danych | Nieograniczony (rozliczany według zużycia) |
+| Liczba obsługiwanych domen | 2 (domena główna + 1 dodatkowa) |
+| Liczba kont e-mail | 20 (zarządzane przez Amazon SES) |
+| Maksymalny rozmiar skrzynki e-mail | Nieograniczony (w ramach usługi SES) |
+| Maksymalny rozmiar załącznika | 50 MB |
+
+## 2. ARCHITEKTURA AWS SERVERLESS
+
+| Usługa | Zastosowanie |
+|----------|---------|
+| AWS Lambda | Bezserwerowa warstwa logiki aplikacji |
+| Amazon RDS for PostgreSQL / Aurora PostgreSQL Serverless | Baza danych z automatycznym skalowaniem |
+| Amazon S3 | Przechowywanie plików i dokumentów |
+| Amazon API Gateway | Zarządzanie API i punktami końcowymi |
+| Amazon CloudFront | CDN i dostarczanie treści |
+| AWS Cognito | Uwierzytelnianie i zarządzanie tożsamością |
+| Amazon SES | Usługa poczty elektronicznej |
+| Amazon CloudWatch | Monitoring i logowanie |
+| AWS WAF | Ochrona aplikacji webowej |
+| Amazon EventBridge | Orkiestracja zdarzeń i automatyzacja |
+| Amazon DynamoDB | Przechowywanie danych sesji i cache |
+
+## 3. OBSŁUGIWANE TECHNOLOGIE
+
+### 3.1. Obsługa języków i frameworków
+- Node.js 16, 18, 20
+- Python 3.9, 3.10, 3.11
+- Java 11, 17
+- .NET Core 6.0, 7.0
+- Go
+
+### 3.2. Bazy danych
+- Amazon RDS for PostgreSQL 15
+- Amazon Aurora PostgreSQL Serverless
+- Amazon DynamoDB
+- Amazon ElastiCache (Redis)
+- Amazon Neptune (opcjonalnie dla danych grafowych)
+
+### 3.3. Serwery aplikacyjne
+- Bezserwerowe (AWS Lambda)
+- Amazon API Gateway
+- AWS App Runner (opcjonalnie)
+- AWS Fargate (opcjonalnie dla kontenerów)
+
+### 3.4. Certyfikaty SSL
+- AWS Certificate Manager (ACM)
+- Certyfikaty zarządzane automatycznie
+- Możliwość importu własnych certyfikatów
+
+### 3.5. Dodatkowe usługi
+- AWS Route 53 (DNS Management)
+- AWS CodeCommit / CodePipeline / CodeBuild (CI/CD)
+- AWS EventBridge dla harmonogramowania zadań
+- AWS CloudFormation / AWS CDK (Infrastructure as Code)
+- AWS Secrets Manager
+- Amazon Cognito (zarządzanie użytkownikami)
+- Amazon SQS/SNS (kolejki i powiadomienia)
+
+## 4. ŚRODOWISKA PRACY
+
+### 4.1. Środowisko produkcyjne
+- Pełna konfiguracja Multi-AZ (dostępność w wielu strefach)
+- Automatyczne skalowanie w zależności od obciążenia
+- Konfiguracja wysokiej dostępności
+- Monitoring i alarmy 24/7
+- Automatyczne kopie zapasowe
+
+### 4.2. Środowisko testowe
+- Izolowane od środowiska produkcyjnego
+- Identyczna architektura jak środowisko produkcyjne
+- Możliwość testowania aktualizacji i nowych funkcji
+- Dostęp ograniczony do uprawnionych użytkowników
+- Mniejsze zasoby, z możliwością dynamicznego skalowania
+
+### 4.3. Środowisko deweloperskie
+- Środowisko dla prac programistycznych
+- Integracja z systemami kontroli wersji
+- Ograniczone zasoby (według potrzeb)
+- Emulacja środowiska produkcyjnego
+
+## 5. DOSTĘP DO USŁUG
+
+### 5.1. Panel administracyjny
+- Dostęp do AWS Management Console z odpowiednimi uprawnieniami
+- Dedykowany panel dla zarządzania systemem CRM
+- Uwierzytelnianie wieloczynnikowe (MFA)
+- Role i uprawnienia na podstawie AWS IAM
+- Zarządzanie kontami użytkowników
+- Zarządzanie kopiami zapasowymi
+- Audyt działań administratorów
+
+### 5.2. Dostęp do plików
+- AWS S3 Console
+- AWS CLI
+- SDK dla popularnych języków programowania
+- Integracja z systemami kontroli wersji
+
+### 5.3. Dostęp do baz danych
+- Amazon RDS/Aurora Console
+- Bezpieczne połączenia przez AWS PrivateLink
+- Tunelowanie SSH (jeśli wymagane)
+- Integracja z narzędziami do zarządzania bazami danych
+
+## 6. BEZPIECZEŃSTWO
+
+### 6.1. Zabezpieczenia infrastruktury
+- AWS Shield (ochrona DDoS)
+- AWS WAF (zapora aplikacji webowej)
+- AWS Network Firewall
+- AWS Security Groups i Network ACLs
+- AWS GuardDuty (wykrywanie zagrożeń)
+- AWS CloudTrail (audyt i zgodność)
+- AWS Config (ocena zgodności)
+
+### 6.2. Zabezpieczenia danych
+- Szyfrowanie danych w spoczynku (AWS KMS)
+- Szyfrowanie transmisji (TLS 1.3)
+- Izolacja danych klientów
+- AWS Cognito dla uwierzytelniania
+- AWS Secrets Manager dla wrażliwych danych
+- Tokenizacja danych wrażliwych
+- Zgodność z wymogami OWASP Top 10
+
+### 6.3. Kopie zapasowe
+- Automatyczne kopie przyrostowe (codzienne, przechowywane przez 14 dni)
+- Pełne kopie zapasowe (tygodniowo, przechowywane przez 30 dni)
+- Kopie archiwalne (miesięcznie, przechowywane przez 12 miesięcy)
+- Replikacja między regionami AWS dla krytycznych danych
+- Automatyczne testy integralności kopii zapasowych
+- Point-in-Time Recovery dla baz danych (co 5 minut)
+
+## 7. MONITORING I RAPORTOWANIE
+
+### 7.1. Monitoring
+- Amazon CloudWatch (metryki, alarmy, dashboardy)
+- AWS X-Ray (analiza wydajności i śledzenie żądań)
+- Amazon EventBridge (automatyczne reakcje na zdarzenia)
+- AWS Health Dashboard (status usług AWS)
+- Powiadomienia przez Amazon SNS
+- Wykrywanie anomalii
+
+### 7.2. Raportowanie
+- Dostęp do logów przez Amazon CloudWatch Logs
+- Miesięczne raporty dostępności (SLA)
+- Raporty kosztów i wykorzystania zasobów
+- Raporty bezpieczeństwa i zgodności
+- Statystyki użytkowania CRM
+- Automatyczne raportowanie incydentów
+
+## 8. WSPARCIE TECHNICZNE
+
+### 8.1. Kanały wsparcia
+- AWS Enterprise Support (opcjonalnie)
+- Dedykowany opiekun techniczny
+- System zgłoszeń (helpdesk)
+- E-mail
+- Telefon (24/7 dla zgłoszeń krytycznych)
+- Czat dla administratorów
+
+### 8.2. Czasy reakcji
+- Zgłoszenia krytyczne: do 30 minut (24/7)
+- Zgłoszenia pilne: do 4 godzin (w godzinach pracy)
+- Zgłoszenia standardowe: do 24 godzin (w godzinach pracy)
+- Zgłoszenia dotyczące zmian konfiguracyjnych: do 48 godzin (w godzinach pracy)
+
+### 8.3. Wsparcie rozszerzone
+- Konsultacje architektury AWS
+- Optymalizacja kosztów i wydajności
+- Audyty bezpieczeństwa
+- Szkolenia dla administratorów
+- Wsparcie przy wdrażaniu nowych funkcji
+
+## 9. AKTUALIZACJE I UTRZYMANIE
+
+### 9.1. Aktualizacje usług AWS
+- Automatyczne aktualizacje infrastruktury zarządzanej przez AWS
+- Aktualizacje wersji baz danych (według harmonogramu)
+- Aktualizacje runtime'ów środowisk Lambda
+- Aktualizacje bezpieczeństwa (w ciągu 24h od wydania)
+
+### 9.2. Zarządzanie zmianami
+- Wdrożenia przy użyciu AWS CodePipeline
+- Strategie wdrożeń: Blue/Green, Canary, Rolling
+- Automatyczne testy przed wdrożeniem
+- Możliwość wycofania zmian (rollback)
+- Testowanie w środowisku testowym
+
+### 9.3. Optymalizacja
+- Regularne przeglądy architektury AWS
+- Optymalizacja kosztów
+- Automatyczne skalowanie zasobów
+- Analiza logów i rozwiązywanie problemów
+- Dostosowanie zasobów do aktualnych potrzeb
+
+## 10. ZGODNOŚĆ I CERTYFIKACJE
+
+### 10.1. Zgodność z przepisami
+- RODO/GDPR
+- ISO 27001
+- SOC 1, SOC 2, SOC 3
+- PCI DSS
+- HIPAA (opcjonalnie)
+
+### 10.2. Polityka prywatności i bezpieczeństwa
+- Lokalizacja danych zgodna z wymogami prawnymi
+- Transparentne procedury dostępu do danych
+- Regularne audyty bezpieczeństwa
+- Zarządzanie odpowiedzialnością zgodnie z modelem AWS Shared Responsibility
+
+_Niniejsza specyfikacja techniczna stanowi integralną część Umowy o świadczenie usług hostingowych dla Systemu CRM._
+
+_________________________                     _________________________
+      USŁUGODAWCA                                   USŁUGOBIORCA 

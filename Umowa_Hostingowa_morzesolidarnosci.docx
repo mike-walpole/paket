@@ -1,0 +1,190 @@
+# UMOWA O ŚWIADCZENIE USŁUG HOSTINGOWYCH
+
+zawarta w dniu ______________ roku w ______________ pomiędzy:
+
+____________________ z siedzibą w ______________, ul. ______________, __-___ ______________, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy ______________, ____ Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: ______________, NIP: ______________, REGON: ______________, reprezentowaną przez:
+______________ – ______________
+zwaną dalej „Usługodawcą",
+
+a
+
+____________________ z siedzibą w ______________, ul. ______________, __-___ ______________, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy ______________, ____ Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: ______________, NIP: ______________, REGON: ______________, reprezentowaną przez:
+______________ – ______________
+zwaną dalej „Usługobiorcą",
+
+zwanymi dalej łącznie „Stronami", a każda z osobna „Stroną",
+
+o następującej treści:
+
+## § 1 PRZEDMIOT UMOWY
+
+1. Przedmiotem niniejszej Umowy jest świadczenie przez Usługodawcę na rzecz Usługobiorcy usług hostingowych dla strony internetowej działającej pod domeną morzesolidarnosci.eu (zwanej dalej „Serwisem").
+
+2. W ramach świadczonych usług Usługodawca zobowiązuje się do:
+   a) Udostępnienia przestrzeni dyskowej na serwerach Usługodawcy;
+   b) Zapewnienia miesięcznego transferu danych;
+   c) Zapewnienia obsługi technicznej Serwisu;
+   d) Zapewnienia dostępu do panelu administracyjnego;
+   e) Konfiguracji i utrzymania serwera;
+   f) Wykonywania regularnych kopii zapasowych Serwisu;
+   g) Monitorowania dostępności Serwisu;
+   h) Zapewnienia wsparcia technicznego na zasadach określonych w § 5 niniejszej Umowy.
+
+3. Szczegółowa specyfikacja parametrów technicznych świadczonych usług:
+   a) Przestrzeń dyskowa: _____ GB;
+   b) Miesięczny transfer danych: _____ GB;
+   c) Liczba obsługiwanych domen: _____;
+   d) Liczba kont e-mail: _____;
+   e) Obsługa baz danych: ______;
+   f) Dostęp przez FTP: ______;
+   g) Panel administracyjny: ______;
+   h) Wsparcie dla technologii: ______.
+
+## § 2 CZAS TRWANIA UMOWY
+
+1. Umowa zostaje zawarta na czas nieokreślony, z minimalnym okresem obowiązywania wynoszącym 12 (dwanaście) miesięcy od dnia jej podpisania.
+
+2. Każda ze Stron może wypowiedzieć Umowę z zachowaniem 3-miesięcznego okresu wypowiedzenia, ze skutkiem na koniec miesiąca kalendarzowego, jednak nie wcześniej niż po upływie minimalnego okresu obowiązywania, o którym mowa w ust. 1.
+
+3. Wypowiedzenie Umowy wymaga formy pisemnej pod rygorem nieważności.
+
+## § 3 WYNAGRODZENIE
+
+1. Z tytułu świadczenia usług, o których mowa w § 1, Usługobiorca zapłaci Usługodawcy:
+   a) Opłatę wdrożeniową w wysokości 3 500,00 zł netto (słownie: trzy tysiące pięćset złotych 00/100), powiększoną o należny podatek VAT, płatną jednorazowo w terminie 7 dni od daty zawarcia niniejszej Umowy;
+   b) Miesięczny abonament w wysokości 700,00 zł netto (słownie: siedemset złotych 00/100), powiększony o należny podatek VAT, płatny z góry do 10-tego dnia każdego miesiąca.
+
+2. Opłata wdrożeniowa obejmuje:
+   a) Konfigurację serwera i środowiska hostingowego;
+   b) Instalację i konfigurację niezbędnego oprogramowania;
+   c) Migrację danych z poprzedniego serwera (jeśli dotyczy);
+   d) Konfigurację zabezpieczeń;
+   e) Optymalizację wydajności serwera;
+   f) Konfigurację kopii zapasowych;
+   g) Przeszkolenie w zakresie korzystania z panelu administracyjnego.
+
+3. Miesięczny abonament obejmuje wszystkie usługi wymienione w § 1 ust. 2 i 3.
+
+4. Płatności będą dokonywane przelewem na rachunek bankowy Usługodawcy o numerze: _________________________________.
+
+5. Za dzień zapłaty uznaje się dzień obciążenia rachunku bankowego Usługobiorcy.
+
+6. W przypadku opóźnienia w płatności, Usługodawca ma prawo naliczyć odsetki ustawowe za opóźnienie.
+
+7. W przypadku opóźnienia w płatności przekraczającego 14 dni, Usługodawca ma prawo do czasowego zawieszenia świadczenia usług do czasu uregulowania zaległości, po uprzednim wezwaniu Usługobiorcy do zapłaty z wyznaczeniem dodatkowego 7-dniowego terminu.
+
+## § 4 POZIOM USŁUG (SLA)
+
+1. Usługodawca gwarantuje dostępność Serwisu na poziomie 99,5% w skali miesiąca, co oznacza maksymalny czas niedostępności nieprzekraczający 3,6 godziny w miesiącu, z wyłączeniem planowanych prac konserwacyjnych.
+
+2. Usługodawca zobowiązuje się do informowania Usługobiorcy o planowanych pracach konserwacyjnych z wyprzedzeniem co najmniej 48 godzin, a prace te będą wykonywane w godzinach najmniejszego ruchu (22:00-6:00).
+
+3. W przypadku niedotrzymania gwarantowanego poziomu dostępności Serwisu z przyczyn leżących po stronie Usługodawcy, Usługobiorcy przysługuje prawo do rekompensaty w postaci obniżenia opłaty abonamentowej za dany miesiąc o 5% za każdą rozpoczętą godzinę niedostępności ponad gwarantowany poziom, jednak łącznie nie więcej niż 100% miesięcznej opłaty abonamentowej.
+
+4. Niedostępność Serwisu spowodowana siłą wyższą, działaniami osób trzecich, za które Usługodawca nie ponosi odpowiedzialności, lub działaniami Usługobiorcy nie jest wliczana do czasu niedostępności, o którym mowa w ust. 1.
+
+## § 5 WSPARCIE TECHNICZNE
+
+1. Usługodawca zapewnia wsparcie techniczne w zakresie świadczonych usług hostingowych w następującym wymiarze:
+   a) W dni robocze w godzinach 8:00-18:00 – wsparcie w trybie standardowym;
+   b) W pozostałych godzinach oraz w dni wolne od pracy – wsparcie w trybie awaryjnym (tylko w przypadku awarii uniemożliwiających działanie Serwisu).
+
+2. Zgłoszenia serwisowe mogą być dokonywane:
+   a) Drogą elektroniczną na adres e-mail: _________________________;
+   b) Telefonicznie pod numerem: _________________________;
+   c) Poprzez dedykowany system zgłoszeń dostępny pod adresem: _________________________.
+
+3. Usługodawca zobowiązuje się do następujących czasów reakcji na zgłoszenia:
+   a) Zgłoszenia krytyczne (całkowita niedostępność Serwisu) – do 1 godziny;
+   b) Zgłoszenia pilne (znaczące ograniczenie funkcjonalności Serwisu) – do 4 godzin;
+   c) Zgłoszenia standardowe (drobne problemy nieograniczające kluczowych funkcjonalności) – do 24 godzin;
+   d) Zgłoszenia dotyczące zmian konfiguracyjnych – do 48 godzin.
+
+4. Czasy reakcji liczone są w godzinach roboczych (8:00-18:00 w dni robocze), z wyjątkiem zgłoszeń krytycznych, dla których czas reakcji liczony jest nieprzerwanie.
+
+## § 6 KOPIE ZAPASOWE
+
+1. Usługodawca zobowiązuje się do wykonywania regularnych kopii zapasowych Serwisu według następującego schematu:
+   a) Kopie codzienne – przechowywane przez 7 dni;
+   b) Kopie tygodniowe – przechowywane przez 4 tygodnie;
+   c) Kopie miesięczne – przechowywane przez 3 miesiące.
+
+2. Kopie zapasowe będą przechowywane w lokalizacji innej niż podstawowa infrastruktura serwerowa, w celu zapewnienia bezpieczeństwa danych.
+
+3. Na żądanie Usługobiorcy, Usługodawca udostępni kopię zapasową Serwisu w terminie 24 godzin od zgłoszenia takiego żądania, nie częściej jednak niż raz w miesiącu. Dodatkowe kopie zapasowe lub częstsze udostępnianie kopii może wiązać się z dodatkowymi opłatami zgodnie z aktualnym cennikiem Usługodawcy.
+
+## § 7 ODPOWIEDZIALNOŚĆ STRON
+
+1. Usługodawca zobowiązuje się do świadczenia usług z najwyższą starannością, zgodnie z najlepszymi praktykami branżowymi.
+
+2. Usługodawca nie ponosi odpowiedzialności za:
+   a) Treści zamieszczane przez Usługobiorcę lub użytkowników Serwisu;
+   b) Przerwy w funkcjonowaniu Serwisu wynikające z przyczyn niezależnych od Usługodawcy;
+   c) Szkody wynikłe z winy Usługobiorcy lub osób trzecich;
+   d) Szkody pośrednie, utracone korzyści, utratę danych, chyba że wynikają one z winy umyślnej Usługodawcy.
+
+3. Całkowita odpowiedzialność Usługodawcy z tytułu niewykonania lub nienależytego wykonania Umowy ograniczona jest do wartości trzymiesięcznego abonamentu.
+
+4. Usługobiorca zobowiązuje się do:
+   a) Korzystania z usług hostingowych zgodnie z ich przeznaczeniem, obowiązującym prawem oraz zasadami współżycia społecznego;
+   b) Niepodejmowania działań mogących naruszyć stabilność systemu informatycznego Usługodawcy;
+   c) Zabezpieczenia i ochrony własnych danych dostępowych do panelu administracyjnego;
+   d) Terminowego regulowania należności wynikających z niniejszej Umowy.
+
+## § 8 OCHRONA DANYCH OSOBOWYCH
+
+1. Strony zobowiązują się do przestrzegania przepisów dotyczących ochrony danych osobowych, w szczególności Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).
+
+2. W zakresie, w jakim realizacja niniejszej Umowy wiąże się z dostępem Usługodawcy do danych osobowych, których administratorem jest Usługobiorca, Strony zawrą odrębną umowę powierzenia przetwarzania danych osobowych.
+
+## § 9 POUFNOŚĆ
+
+1. Strony zobowiązują się do zachowania w tajemnicy wszelkich informacji poufnych uzyskanych w związku z realizacją niniejszej Umowy, w szczególności dotyczących know-how, danych technicznych, finansowych, handlowych i organizacyjnych drugiej Strony.
+
+2. Zobowiązanie do zachowania poufności nie dotyczy informacji, które:
+   a) Są lub staną się publicznie dostępne w sposób inny niż przez naruszenie postanowień niniejszej Umowy;
+   b) Są lub staną się dostępne dla Strony z źródła innego niż druga Strona, pod warunkiem, że ujawnienie takich informacji przez to źródło nie stanowi naruszenia zobowiązania do zachowania poufności;
+   c) Muszą zostać ujawnione na podstawie przepisów prawa lub na żądanie uprawnionych organów.
+
+3. Zobowiązanie do zachowania poufności obowiązuje przez okres obowiązywania niniejszej Umowy oraz przez okres 3 lat po jej rozwiązaniu lub wygaśnięciu.
+
+## § 10 ROZWIĄZANIE UMOWY
+
+1. Każda ze Stron może rozwiązać Umowę ze skutkiem natychmiastowym w przypadku rażącego naruszenia postanowień Umowy przez drugą Stronę, po uprzednim pisemnym wezwaniu do zaprzestania naruszeń i wyznaczeniu dodatkowego 14-dniowego terminu, który upłynął bezskutecznie.
+
+2. Za rażące naruszenie Umowy przez Usługobiorcę uznaje się w szczególności:
+   a) Opóźnienie w zapłacie wynagrodzenia przekraczające 30 dni;
+   b) Wykorzystywanie usług hostingowych do działań niezgodnych z prawem;
+   c) Działania zagrażające bezpieczeństwu lub stabilności systemów informatycznych Usługodawcy.
+
+3. Za rażące naruszenie Umowy przez Usługodawcę uznaje się w szczególności:
+   a) Powtarzające się przypadki niedotrzymania gwarantowanego poziomu dostępności Serwisu;
+   b) Naruszenie poufności danych Usługobiorcy;
+   c) Zaprzestanie świadczenia usług bez uzasadnionej przyczyny.
+
+4. W przypadku rozwiązania Umowy przez którąkolwiek ze Stron, Usługodawca zobowiązuje się do:
+   a) Udostępnienia Usługobiorcy kopii zapasowej Serwisu oraz bazy danych;
+   b) Zapewnienia wsparcia technicznego przy migracji danych do nowego dostawcy usług hostingowych;
+   c) Trwałego usunięcia danych Usługobiorcy ze swoich serwerów po potwierdzeniu przez Usługobiorcę pomyślnego przeniesienia danych.
+
+## § 11 POSTANOWIENIA KOŃCOWE
+
+1. Wszelkie zmiany niniejszej Umowy wymagają formy pisemnej pod rygorem nieważności.
+
+2. W sprawach nieuregulowanych niniejszą Umową mają zastosowanie przepisy Kodeksu cywilnego oraz inne właściwe przepisy prawa polskiego.
+
+3. Strony zobowiązują się do polubownego rozwiązywania wszelkich sporów wynikających z realizacji niniejszej Umowy. W przypadku braku możliwości polubownego rozwiązania sporu, będzie on rozstrzygany przez sąd właściwy dla siedziby Usługodawcy.
+
+4. Jeżeli jakiekolwiek postanowienie niniejszej Umowy okaże się nieważne lub nieskuteczne, nie wpływa to na ważność lub skuteczność pozostałych postanowień. W takim przypadku Strony zobowiązują się zastąpić nieważne lub nieskuteczne postanowienie postanowieniem ważnym i skutecznym, które w największym możliwym stopniu odpowiada celowi gospodarczemu postanowienia nieważnego lub nieskutecznego.
+
+5. Osobami odpowiedzialnymi za realizację Umowy są:
+   a) ze strony Usługodawcy: ______________, tel. ______________, e-mail: ______________
+   b) ze strony Usługobiorcy: ______________, tel. ______________, e-mail: ______________
+
+6. Zmiana osób, o których mowa w ust. 5, nie stanowi zmiany Umowy i wymaga jedynie pisemnego powiadomienia drugiej Strony.
+
+7. Umowę sporządzono w dwóch jednobrzmiących egzemplarzach, po jednym dla każdej ze Stron.
+
+
+_______________________                                _______________________
+    USŁUGODAWCA                                             USŁUGOBIORCA 
