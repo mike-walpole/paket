@@ -46,7 +46,7 @@
     <div class="relative">
       <div class="aspect-w-16 aspect-h-9 md:aspect-h-10">
         <div class="bg-gray-200 h-full w-full flex items-center justify-center text-gray-500">
-          <img src="/budsol2.avif" alt="Nasze biuro nieruchomości" class="w-full h-full object-cover">
+          <img src="/room3.webp" alt="Nasze biuro nieruchomości" class="w-full h-[600px] object-cover">
         </div>
       </div>
     </div>

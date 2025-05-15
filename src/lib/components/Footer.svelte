@@ -1,9 +1,9 @@
 <script>
   const produkty = [
-    { title: 'Mieszkania', href: '/nieruchomosci/mieszkania' },
-    { title: 'Domy', href: '/nieruchomosci/domy' },
-    { title: 'Lokale', href: '/nieruchomosci/lokale' },
-    { title: 'Działki', href: '/nieruchomosci/dzialki' }
+    { title: 'Kupuję', href: '/kupuje' },
+    { title: 'Sprzedaję', href: '/sprzedaje' },
+    { title: 'Remontuję', href: '/remontuje' },
+    { title: 'Magazyn', href: '/magazyn' }
   ];
 
   const oFirmie = [

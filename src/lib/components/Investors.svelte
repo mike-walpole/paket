@@ -19,11 +19,11 @@
   <!-- Background Image -->
   <div class="absolute inset-0">
     <img 
-      src="/cherwell6.avif" 
+      src="/room2.avif" 
       alt="DomExpert - Twoje zaufane biuro nieruchomości" 
       class="w-full h-full object-cover"
     />
-    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="absolute inset-0 bg-black/30"></div>
   </div>
 
   <!-- Content Container -->

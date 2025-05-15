@@ -21,7 +21,7 @@
     {
       title: 'Usługi remontowe',
       description: 'Kompleksowe usługi remontowe i modernizacyjne dla Twojej nieruchomości.',
-      href: '/remonty'
+      href: '/remontuje'
     }
   ];
 
@@ -62,7 +62,7 @@
       <div class="flex items-center">
        
         <a href="/">
-        <p class="text-white text-2xl font-bold">Paket</p>
+        <img src="/logowhite.avif" alt="Paket" class="h-6">
         </a>
        
         
@@ -94,6 +94,19 @@
             class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
           >
             Kupuję
+          </a>
+
+          <a 
+            href="/remontuje" 
+            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
+          >
+            Remontuję
+          </a>
+          <a 
+            href="/magazyn" 
+            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
+          >
+            Magazyn
           </a>
           <a 
             href="/kontakt" 
@@ -177,6 +190,12 @@
         </a>
         <a href="/kupuje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           Kupuję
+        </a>
+        <a href="/remontuje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
+          Remontuję
+        </a>
+        <a href="/magazyn" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
+          Magazyn
         </a>
         <a href="/kontakt" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           Kontakt

@@ -6,7 +6,7 @@
         <div class="h-[50vh] md:h-[calc(100vh-8rem)] relative flex justify-end">
           <div class="w-full">
             <img 
-              src="/testimonial2.avif" 
+              src="/testimonial3.avif" 
               alt="Opinie klientów Paket" 
               class="w-full h-full object-cover"
             />
