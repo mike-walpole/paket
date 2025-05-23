@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-  <title>Magazyn | Paket</title>
+  <title>Paket Na Temat</title>
   <meta name="description" content="Blog Paket - artykuły i porady o nieruchomościach, remontach, aranżacji wnętrz i rynku nieruchomości." />
 </svelte:head>
 
@@ -33,7 +33,7 @@
               background-position: center;">
     <div class="absolute inset-0 bg-black/20 z-10"></div>
     <div class="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Magazyn</h1>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Paket Na Temat</h1>
       <p class="text-xl md:text-2xl text-white max-w-3xl">Porady, inspiracje i trendy w świecie nieruchomości</p>
     </div>
   </div>

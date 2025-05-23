@@ -75,24 +75,21 @@
         <ul class="space-y-3 mb-8">
           <li class="flex items-start">
             <span class="text-green-600 mr-2 mt-1">✅</span>
-            <span><strong>Zwiększenie wartości</strong> – strategiczne modernizacje, które maksymalizują zwrot z inwestycji przy sprzedaży.</span>
+            <span><strong>Jasna wycena całości</strong> – znasz całkowity koszt zakupu i wykończenia jeszcze przed decyzją.</span>
           </li>
           <li class="flex items-start">
             <span class="text-green-600 mr-2 mt-1">✅</span>
-            <span><strong>Poprawa funkcjonalności</strong> – optymalne rozwiązania przestrzenne dla większego komfortu codziennego życia.</span>
+            <span><strong>Funkcjonalna przestrzeń </strong> – podpowiemy Ci np. że wyburzając jedną ścianę, zyskasz większą łazienkę lub lepszy układ salonu – i pokażemy to na wizualizacji.</span>
           </li>
           <li class="flex items-start">
             <span class="text-green-600 mr-2 mt-1">✅</span>
-            <span><strong>Nowoczesne rozwiązania</strong> – implementacja energooszczędnych technologii i aktualnych trendów w projektowaniu wnętrz.</span>
+            <span><strong>Nowoczesne wykończenie</strong> – wnętrza zgodne z aktualnymi trendami i na lata.</span>
           </li>
           <li class="flex items-start">
             <span class="text-green-600 mr-2 mt-1">✅</span>
-            <span><strong>Kompleksowa realizacja</strong> – od projektu do ostatniego detalu, wszystko w jednym miejscu.</span>
+            <span><strong>Spokój i wygoda</strong> – zajmujemy się wszystkim: od znalezienia nieruchomości, przez formalności, projekt i remont, aż po przekazanie kluczy.</span>
           </li>
-          <li class="flex items-start">
-            <span class="text-green-600 mr-2 mt-1">✅</span>
-            <span><strong>Indywidualne podejście</strong> – dopasowanie rozwiązań do Twoich potrzeb i budżetu, niezależnie od celu remontu.</span>
-          </li>
+         
         </ul>
         
         <p class="text-lg font-medium">

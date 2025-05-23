@@ -6,20 +6,21 @@
   let imageError = false;
   let isMobileMenuOpen = false;
   let isMobileServicesOpen = false;
+  let closeTimeout;
   
   const serviceCategories = [
     {
-      title: 'Mieszkania od deweloperów',
-      description: 'Ekskluzywne mieszkania od sprawdzonych deweloperów w najlepszych lokalizacjach.',
-      href: '/mieszkania/deweloperskie'
+      title: 'Sprzedaję',
+      description: 'Kompleksowa obsługa sprzedaży Twojej nieruchomości z maksymalnym zyskiem.',
+      href: '/sprzedaje'
     },
     {
-      title: 'Rynek wtórny',
-      description: 'Profesjonalna wycena i weryfikacja nieruchomości na rynku wtórnym.',
-      href: '/mieszkania/wtorne'
+      title: 'Kupuję',
+      description: 'Pomoc w znalezieniu i zakupie idealnej nieruchomości dopasowanej do Twoich potrzeb.',
+      href: '/kupuje'
     },
     {
-      title: 'Usługi remontowe',
+      title: 'Remontuję',
       description: 'Kompleksowe usługi remontowe i modernizacyjne dla Twojej nieruchomości.',
       href: '/remontuje'
     }
@@ -34,6 +35,23 @@
 
   function toggleMobileServices() {
     isMobileServicesOpen = !isMobileServicesOpen;
+  }
+  
+  function openServicesMenu() {
+    // Clear any pending close operations
+    if (closeTimeout) {
+      clearTimeout(closeTimeout);
+      closeTimeout = null;
+    }
+    isServicesOpen = true;
+  }
+  
+  function closeServicesMenu() {
+    // Set a small delay before closing to prevent accidental closures
+    closeTimeout = setTimeout(() => {
+      isServicesOpen = false;
+      closeTimeout = null;
+    }, 50);
   }
 
   // Handle image loading errors
@@ -52,29 +70,43 @@
       isServicesOpen = false;
       isMobileMenuOpen = false;
       isMobileServicesOpen = false;
+      if (closeTimeout) {
+        clearTimeout(closeTimeout);
+      }
     };
   });
 </script>
 
-<nav class="absolute w-full bg-transparent z-50 ">
-  <div class=" mx-auto px-4 sm:px-6 lg:px-8">
+<nav class="absolute w-full bg-transparent z-50">
+  <div class="mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16 items-center border-b border-white/30">
       <div class="flex items-center">
        
         <a href="/">
-        <img src="/logowhite.avif" alt="Paket" class="h-6">
+          <img src="/logowhite.avif" alt="Paket" class="h-6">
         </a>
        
-        
         <div class="hidden max-w-7xl mx-auto md:flex ml-10 space-x-8">
+          <!-- Create an invisible connection between button and dropdown -->
           <div class="relative">
             <button 
               class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
-              on:mouseenter={() => isServicesOpen = true}
-              on:focus={() => isServicesOpen = true}
+              on:mouseenter={openServicesMenu}
+              on:mouseleave={closeServicesMenu}
+              on:focus={openServicesMenu}
+              on:blur={closeServicesMenu}
             >
               Usługi
             </button>
+            
+            <!-- Invisible connector element to prevent hover gap -->
+            {#if isServicesOpen}
+              <div 
+                class="absolute h-4 w-full bottom-0 translate-y-full" 
+                on:mouseenter={openServicesMenu}
+                on:mouseleave={closeServicesMenu}
+              ></div>
+            {/if}
           </div>
           
           <a 
@@ -84,29 +116,10 @@
             O nas
           </a>
           <a 
-            href="/sprzedaje" 
-            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
-          >
-            Sprzedaję
-          </a>
-          <a 
-            href="/kupuje" 
-            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
-          >
-            Kupuję
-          </a>
-
-          <a 
-            href="/remontuje" 
-            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
-          >
-            Remontuję
-          </a>
-          <a 
             href="/magazyn" 
             class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
           >
-            Magazyn
+            Paket Na Temat
           </a>
           <a 
             href="/kontakt" 
@@ -185,17 +198,8 @@
         <a href="/o-nas" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           O nas
         </a>
-        <a href="/sprzedaje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
-          Sprzedaję
-        </a>
-        <a href="/kupuje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
-          Kupuję
-        </a>
-        <a href="/remontuje" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
-          Remontuję
-        </a>
         <a href="/magazyn" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
-          Magazyn
+          Paket Na Temat
         </a>
         <a href="/kontakt" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           Kontakt
@@ -214,16 +218,12 @@
     </div>
   {/if}
 
-  <!-- Desktop services dropdown -->
+  <!-- Services dropdown menu - moved outside to make it full width -->
   {#if isServicesOpen}
-    <div
-      class="absolute inset-x-0 transform origin-top-right z-10 hidden md:block"
-      on:mouseleave={() => isServicesOpen = false}
-      on:focusout={(e) => {
-        if (!e.currentTarget.contains(e.relatedTarget)) {
-          isServicesOpen = false;
-        }
-      }}
+    <div 
+      class="absolute inset-x-0 top-16 z-20 hidden md:block"
+      on:mouseenter={openServicesMenu} 
+      on:mouseleave={closeServicesMenu}
     >
       <div class="bg-white shadow-lg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
