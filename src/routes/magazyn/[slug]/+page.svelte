@@ -66,7 +66,7 @@
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto">
         <!-- Header -->
-        <div class="mb-8">
+        <div class="mt-24 mb-8">
           {#if post.categories && post.categories.length > 0}
             <div class="flex flex-wrap gap-2 mb-4">
               {#each post.categories as category}
