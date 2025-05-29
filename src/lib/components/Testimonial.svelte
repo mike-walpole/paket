@@ -8,7 +8,7 @@
             <img 
               src="/testimonial3.avif" 
               alt="Opinie klientów Paket" 
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover object-right"
             />
           </div>
         </div>

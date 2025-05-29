@@ -77,9 +77,9 @@
   });
 </script>
 
-<nav class="absolute w-full bg-transparent z-50">
+<nav class="absolute w-full bg-black z-50">
   <div class="mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between h-16 items-center border-b border-white/30">
+    <div class="flex justify-between h-16 items-center ">
       <div class="flex items-center">
        
         <a href="/">
@@ -114,6 +114,12 @@
             class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
           >
             O nas
+          </a>
+          <a 
+            href="/wspolpraca" 
+            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
+          >
+            Współpraca
           </a>
           <a 
             href="/magazyn" 
@@ -197,6 +203,9 @@
         
         <a href="/o-nas" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           O nas
+        </a>
+        <a href="/wspolpraca" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
+          Współpraca
         </a>
         <a href="/magazyn" class="block px-3 py-3 text-base text-gray-900 hover:text-red-900">
           Paket Na Temat

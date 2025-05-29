@@ -10,8 +10,11 @@
   import Benefits from '$lib/components/Benefits.svelte';
   import LogosWall from '$lib/components/LogosWall.svelte';
   import DeliverySolution from '$lib/components/DeliverySolution.svelte';
+  import FeaturedPosts from '$lib/components/FeaturedPosts.svelte';
   import { page } from '$app/stores';
   import Calendly from '$lib/components/Calendly.svelte';
+  
+  export let data;
   // Home page component
   
 </script>
@@ -83,6 +86,9 @@
 <Benefits />
 
 <Testimonial />
+
+<FeaturedPosts posts={data.featuredPosts} />
+
 <DeliverySolution />
 
 <WhyYouLove />

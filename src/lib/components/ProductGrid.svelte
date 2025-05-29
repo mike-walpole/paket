@@ -1,33 +1,33 @@
 <script>
   const categories = [
     {
-      title: 'Mieszkania od deweloperów',
-      href: '/mieszkania/deweloperskie',
-      description: 'Oferujemy ekskluzywne mieszkania od sprawdzonych deweloperów. Gwarantujemy najlepsze lokalizacje, nowoczesne rozwiązania i atrakcyjne warunki finansowe. Pomagamy w całym procesie zakupu - od wyboru mieszkania po odbiór kluczy.',
+      title: 'Sprzedaję mieszkania',
+      href: '/sprzedaje',
+      description: 'Maksymalizujemy wartość Twojej nieruchomości dzięki strategicznemu podejściu do sprzedaży. Profesjonalny home staging, wysokiej jakości materiały marketingowe i skuteczne negocjacje gwarantują najlepszy wynik finansowy.',
       features: [
-        'Dostęp do najlepszych inwestycji na rynku',
-        'Pomoc w wyborze optymalnego finansowania',
-        'Wsparcie w procesie zakupu i odbioru mieszkania'
+        'Strategiczna wycena oparta na głębokiej analizie rynku',
+        'Profesjonalny home staging i fotografia nieruchomości',
+        'Agresywny marketing i dotarcie do najlepszych kupujących'
       ]
     },
     {
-      title: 'Rynek wtórny',
-      href: '/mieszkania/wtorne',
-      description: 'Szukasz mieszkania na rynku wtórnym? Nasi eksperci pomogą Ci znaleźć idealną nieruchomość. Oferujemy profesjonalną wycenę, weryfikację stanu prawnego i kompleksową obsługę transakcji.',
+      title: 'Kupuję mieszkania',
+      href: '/kupuje',
+      description: 'Znajdziemy dla Ciebie idealną nieruchomość, która spełni wszystkie Twoje oczekiwania i będzie doskonałą inwestycją na przyszłość. Nasze doświadczenie i znajomość rynku to gwarancja trafnego wyboru.',
       features: [
-        'Dokładna analiza rynku i wycena nieruchomości',
-        'Weryfikacja stanu prawnego i dokumentacji',
-        'Wsparcie w negocjacjach i procesie zakupu'
+        'Ekskluzywny dostęp do najlepszych ofert na rynku',
+        'Kompleksowa analiza prawna i techniczna nieruchomości',
+        'Profesjonalne negocjacje ceny i warunków zakupu'
       ]
     },
     {
-      title: 'Usługi remontowe',
-      href: '/remonty',
-      description: 'Zapewniamy kompleksowe usługi remontowe i modernizacyjne. Nasz zespół doświadczonych fachowców zadba o każdy detal, transformując Twoją przestrzeń w wymarzone miejsce do życia.',
+      title: 'Remontuję mieszkania',
+      href: '/remontuje',
+      description: 'Przekształcamy Twoją przestrzeń w nowoczesne, funkcjonalne wnętrze, które zwiększy wartość nieruchomości i komfort życia. Kompleksowa realizacja od projektu po ostatni detal wykończenia.',
       features: [
-        'Kompleksowe projekty remontowe i modernizacyjne',
-        'Profesjonalny nadzór i koordynacja prac',
-        'Gwarancja jakości wykonania i terminowości'
+        'Autorskie projekty wnętrz dopasowane do Twoich potrzeb',
+        'Koordinacja wszystkich prac z gwarancją terminowości',
+        'Materiały premium w optymalnej relacji jakości do ceny'
       ]
     }
   ];

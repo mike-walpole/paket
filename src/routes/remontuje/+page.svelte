@@ -6,7 +6,7 @@
   const steps = [
     {
       number: '01',
-      title: 'Konsultacja i planowanie',
+      title: 'Konsultacja i plan działania',
       description: 'Rozpoczynamy od dokładnego poznania Twoich oczekiwań. Analizujemy stan nieruchomości, omawiamy cele remontu (zwiększenie wartości przy sprzedaży lub poprawę komfortu mieszkania) i tworzymy wstępny plan działań.'
     },
     {
