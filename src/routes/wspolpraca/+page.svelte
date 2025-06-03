@@ -13,7 +13,7 @@
   
   <!-- Hero section -->
   <div class="relative h-[60vh] overflow-hidden" 
-       style="background-image: url('/cherwell6.avif'); 
+       style="background-image: url('/wspolpraca.png'); 
               background-size: cover;
               background-position: center;">
     <div class="absolute inset-0 bg-black/40 z-10"></div>

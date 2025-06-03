@@ -83,9 +83,9 @@
       <div class="flex items-center">
        
         <a href="/">
-          <img src="/logowhite.avif" alt="Paket" class="h-6">
+        <img src="/logowhite.avif" alt="Paket" class="h-6">
         </a>
-       
+        
         <div class="hidden max-w-7xl mx-auto md:flex ml-10 space-x-8">
           <!-- Create an invisible connection between button and dropdown -->
           <div class="relative">
@@ -229,7 +229,7 @@
 
   <!-- Services dropdown menu - moved outside to make it full width -->
   {#if isServicesOpen}
-    <div 
+    <div
       class="absolute inset-x-0 top-16 z-20 hidden md:block"
       on:mouseenter={openServicesMenu} 
       on:mouseleave={closeServicesMenu}

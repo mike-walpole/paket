@@ -60,7 +60,7 @@
   
   <!-- Hero section with rotated image -->
   <div class="relative h-[50vh] overflow-hidden" 
-       style="background-image: url('/kwiaty.webp'); 
+       style="background-image: url('/sprzedaz.png'); 
               background-size: cover;
               background-position: center;
               
@@ -84,24 +84,34 @@
         
         <ul class="space-y-3 mb-8">
           <li class="flex items-start">
-            <span class="text-green-600 mr-2 mt-1">✅</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
             <span><strong>Bezpieczeństwo</strong> – współpracujemy z działem prawnym.</span>
           </li>
           <li class="flex items-start">
-            <span class="text-green-600 mr-2 mt-1">✅</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
             <span><strong>Lepsza prezentacja</strong> – profesjonalny home staging, wysokiej jakości zdjęcia i filmy.</span>
           </li>
           <li class="flex items-start">
-            <span class="text-green-600 mr-2 mt-1">✅</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
             <span><strong>Skuteczna promocja</strong> – ogłaszamy ofertę na wielu kanałach, także niestandardowych, by
             dotrzeć do idealnego kupca.</span>
           </li>
           <li class="flex items-start">
-            <span class="text-green-600 mr-2 mt-1">✅</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
             <span><strong>Optymalna cena</strong> – precyzyjna wycena i negocjacje w Twoim interesie.</span>
           </li>
           <li class="flex items-start">
-            <span class="text-green-600 mr-2 mt-1">✅</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
             <span><strong>Pełna obsługa</strong> – zajmujemy się wszystkim, Ty masz spokój.</span>
           </li>
         </ul>
@@ -119,18 +129,22 @@
     <div class="container mx-auto px-4">
       <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">JAK PRZEBIEGA WSPÓŁPRACA Z NAMI</h2>
       
-      <div class="max-w-4xl mx-auto space-y-12 md:space-y-16">
-        {#each steps as step}
-          <div class="grid md:grid-cols-[120px_1fr] gap-4 md:gap-8">
-            <div class="flex items-center justify-center">
-              <img src={step.image} alt={`Krok ${step.number}`} class="h-16 md:h-12 w-auto object-contain" />
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+          {#each steps as step, index}
+            <div class="step-item {steps.length % 2 !== 0 && index === steps.length - 1 ? 'md:col-span-2 md:max-w-md md:mx-auto' : ''}">
+              <div class="grid grid-cols-[80px_1fr] gap-4">
+                <div class="flex items-center justify-center">
+                  <img src={step.image} alt={`Krok ${step.number}`} class="h-12 w-auto object-contain" />
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold mb-3">{step.title}</h3>
+                  <p class="text-gray-800">{step.description}</p>
+                </div>
+              </div>
             </div>
-            <div>
-              <h3 class="text-xl font-bold mb-3">{step.title}</h3>
-              <p class="text-gray-800">{step.description}</p>
-            </div>
-          </div>
-        {/each}
+          {/each}
+        </div>
       </div>
     </div>
   </section>
