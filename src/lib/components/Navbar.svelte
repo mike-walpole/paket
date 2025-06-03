@@ -109,12 +109,7 @@
             {/if}
           </div>
           
-          <a 
-            href="/o-nas" 
-            class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
-          >
-            O nas
-          </a>
+          
           <a 
             href="/wspolpraca" 
             class="text-white hover:text-red-200 px-3 py-2 text-sm font-normal focus:outline-none focus:ring-2 focus:ring-red-900 focus:ring-offset-2 focus:ring-offset-transparent"
