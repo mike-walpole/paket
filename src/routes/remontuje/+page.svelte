@@ -117,6 +117,15 @@
   <!-- Steps section -->
   <section class="py-16 md:py-24 bg-gray-50">
     <div class="container mx-auto px-4">
+      <!-- Image before steps -->
+      <div class="max-w-6xl mx-auto mb-16">
+        <img 
+          src="/remontimage.png" 
+          alt="Remont nieruchomości" 
+          class="w-full h-auto object-cover rounded-lg"
+        />
+      </div>
+      
       <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Jak przebiega proces remontu z nami?</h2>
       
       <div class="max-w-6xl mx-auto">
