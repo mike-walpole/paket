@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer  from '$lib/components/Footer.svelte';
-  
+  import FormularzRemont from '$lib/components/FormularzRemont.svelte';
   // Steps data
   const steps = [
     {
@@ -132,5 +132,5 @@
     </div>
   </section>
 </div> 
-
+<FormularzRemont />
 <Footer />

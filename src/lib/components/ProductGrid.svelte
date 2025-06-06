@@ -1,83 +1,69 @@
 <script>
-  const categories = [
+  const services = [
     {
-      title: 'Sprzedaję mieszkania',
+      title: 'Sprzedaję nieruchomość',
+      description: 'Sprzedajemy mieszkania poprawnie i z pełnym zaangażowaniem.',
       href: '/sprzedaje',
-      description: 'Maksymalizujemy wartość Twojej nieruchomości dzięki strategicznemu podejściu do sprzedaży. Profesjonalny home staging, wysokiej jakości materiały marketingowe i skuteczne negocjacje gwarantują najlepszy wynik finansowy.',
-      features: [
-        'Strategiczna wycena oparta na głębokiej analizie rynku',
-        'Profesjonalny home staging i fotografia nieruchomości',
-        'Agresywny marketing i dotarcie do najlepszych kupujących'
-      ]
+      buttonText: 'Sprawdź ofertę',
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-16 h-16">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9,22 9,12 15,12 15,22"/>
+      </svg>`
     },
     {
-      title: 'Kupuję mieszkania',
+      title: 'Kupuję nieruchomość', 
+      description: 'Znajdziemy coś, co naprawdę pasuje do Ciebie.',
       href: '/kupuje',
-      description: 'Znajdziemy dla Ciebie idealną nieruchomość, która spełni wszystkie Twoje oczekiwania i będzie doskonałą inwestycją na przyszłość. Nasze doświadczenie i znajomość rynku to gwarancja trafnego wyboru.',
-      features: [
-        'Ekskluzywny dostęp do najlepszych ofert na rynku',
-        'Kompleksowa analiza prawna i techniczna nieruchomości',
-        'Profesjonalne negocjacje ceny i warunków zakupu'
-      ]
+      buttonText: 'Zobacz, co możemy dla Ciebie zrobić',
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-16 h-16">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>`
     },
     {
-      title: 'Remontuję mieszkania',
+      title: 'Remontuję',
+      description: 'Wizja, projekt, doradztwo, realizacja - po prostu się tym zajmiemy.',
       href: '/remontuje',
-      description: 'Przekształcamy Twoją przestrzeń w nowoczesne, funkcjonalne wnętrze, które zwiększy wartość nieruchomości i komfort życia. Kompleksowa realizacja od projektu po ostatni detal wykończenia.',
-      features: [
-        'Autorskie projekty wnętrz dopasowane do Twoich potrzeb',
-        'Koordinacja wszystkich prac z gwarancją terminowości',
-        'Materiały premium w optymalnej relacji jakości do ceny'
-      ]
+      buttonText: 'Sprawdź ofertę',
+      icon: `<img src="/paint-roller.png" alt="Paint roller icon" class="w-16 h-16 object-contain" />`
     }
   ];
 </script>
 
-<div class="px-4 sm:px-6 lg:px-8 py-16">
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-24">
-    {#each categories as category, index}
-      <div class="group">
-        <!-- Main Content -->
-        <div class="pl-4 md:pl-8 border-l border-red-900">
-          <!-- Title and Description -->
-          <div class="mb-8">
-            <h3 class="text-lg mb-4 font-bold">
-             {category.title}
-            </h3>
-            <p class="text-lg leading-snug mb-24 h-[80px]">{category.description}</p>
+<section class="py-16 md:py-24 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      {#each services as service}
+        <div class="bg-white rounded-lg border border-gray-200 p-8 text-center hover:shadow-lg transition-shadow duration-300 flex flex-col h-full">
+          <!-- Icon -->
+          <div class="flex justify-center mb-6">
+            <div class="text-red-900">
+              {@html service.icon}
+            </div>
           </div>
-
-          <!-- Learn More Section -->
-          <div class="flex items-center mb-6">
-            <div class="w-2.5 h-2.5 rounded-full bg-red-900"></div>
-            <a href={category.href} class="ml-2 text-xs text-gray-900 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 font-bold uppercase">
-              Dowiedz się więcej
-            </a>
-          </div>
-
-          <!-- Bottom Border with Gap -->
-          <div class="border-t border-red-900 ml-0"></div>
-
-          <!-- Feature List -->
-          <div class="mt-6 space-y-6">
-            {#each category.features as feature, i}
-              <div class="pl-0 {i !== 0 ? 'border-t border-gray-200 pt-4' : ''}">
-                <p class="text-base">{feature}</p>
-              </div>
-            {/each}
-          </div>
-
-          <!-- Contact Button -->
-          <div class="mt-8 pl-0">
-            <a 
-              href="/kontakt" 
-              class="inline-flex items-center px-6 py-2 border border-red-900 rounded-full text-sm font-normal hover:bg-red-900 hover:text-white transition-colors duration-200"
-            >
-              Umów spotkanie
-            </a>
-          </div>
+          
+          <!-- Title -->
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">
+            {service.title}
+          </h3>
+          
+          <!-- Description -->
+          <p class="text-gray-600 mb-8 leading-relaxed flex-grow">
+            {service.description}
+          </p>
+          
+          <!-- Action Button -->
+          <a 
+            href={service.href}
+            class="inline-flex items-center justify-center px-6 py-3 border border-red-900 text-red-900 font-medium rounded-full hover:bg-red-900 hover:text-white transition-colors duration-200"
+          >
+            {service.buttonText}
+            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
         </div>
-      </div>
-    {/each}
+      {/each}
+    </div>
   </div>
-</div> 
+</section> 

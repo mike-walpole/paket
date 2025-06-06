@@ -1,46 +1,92 @@
 <script>
-  const benefits = [
+  const services = [
     {
-      title: 'Kompleksowa obsługa',
-      description: 'Zapewniamy pełne wsparcie na każdym etapie - od wyboru nieruchomości, przez negocjacje, po finalizację transakcji. Z nami zakup lub sprzedaż mieszkania stanie się prostsza i bezpieczniejsza.'
+      number: '01',
+      title: 'Pomoc w sprzedaży nieruchomości',
+      description: 'Kompleksowa obsługa sprzedaży Twojej nieruchomości - od wyceny, przez przygotowanie do sprzedaży, po finalizację transakcji. Zapewniamy profesjonalny marketing i dotarcie do najlepszych nabywców.',
+      image: '/service-1.png' // placeholder
     },
     {
-      title: 'Doświadczenie i ekspertyza',
-      description: 'Nasi doradcy posiadają wieloletnie doświadczenie na rynku nieruchomości. Znamy każdy zakątek miasta i pomożemy Ci znaleźć idealne miejsce do życia.'
+      number: '02', 
+      title: 'Wsparcie w zakupie mieszkania lub domu',
+      description: 'Pomagamy znaleźć idealne mieszkanie lub dom dopasowany do Twoich potrzeb i budżetu. Organizujemy oglądania, negocjujemy cenę i przeprowadzamy przez cały proces zakupu.',
+      image: '/service-2.png' // placeholder
     },
     {
-      title: 'Bezpieczeństwo transakcji',
-      description: 'Dbamy o Twoje interesy - weryfikujemy stan prawny nieruchomości, dokumentację i przeprowadzamy dokładną analizę rynku przed każdą transakcją.'
+      number: '03',
+      title: 'Doradztwo inwestycyjne i analiza opłacalności', 
+      description: 'Profesjonalne doradztwo przy wyborze nieruchomości inwestycyjnych. Analizujemy rentowność, potencjał wzrostu wartości i pomagamy budować portfel nieruchomości.',
+      image: '/service-3.png' // placeholder
     },
     {
-      title: 'Indywidualne podejście',
-      description: 'Każdy klient jest dla nas wyjątkowy. Słuchamy Twoich potrzeb i proponujemy rozwiązania dopasowane do Twoich oczekiwań i budżetu.'
+      number: '04',
+      title: 'Organizacja finansowania i kredytów',
+      description: 'Pomagamy w uzyskaniu najkorzystniejszych warunków kredytowych. Współpracujemy z bankami, przygotowujemy dokumentację i wspieramy w całym procesie finansowania.',
+      image: '/service-4.png' // placeholder
+    },
+    {
+      number: '05',
+      title: 'Projekty wnętrz dopasowane do budżetu',
+      description: 'Tworzymy funkcjonalne i estetyczne projekty wnętrz, które podkreślą zalety Twojej nieruchomości. Projektujemy z myślą o komforcie i wartości dodanej.',
+      image: '/service-5.png' // placeholder
+    },
+    {
+      number: '06',
+      title: 'Kompleksowa obsługa transakcji',
+      description: 'Zajmujemy się wszystkimi formalnościami - przygotowujemy umowy, prowadzimy negocjacje, weryfikujemy dokumenty i pilnujemy terminów realizacji.',
+      image: '/service-6.png' // placeholder
+    },
+    {
+      number: '07',
+      title: 'Weryfikacja stanu prawnego nieruchomości',
+      description: 'Dokładnie sprawdzamy stan prawny nieruchomości, księgi wieczyste, obciążenia i inne aspekty prawne, aby zapewnić bezpieczeństwo transakcji.',
+      image: '/service-7.png' // placeholder
+    },
+    {
+      number: '08',
+      title: 'Generalne wykonawstwo – wykończenie pod klucz',
+      description: 'Kompleksowe wykończenie nieruchomości pod klucz. Od projektu, przez dobór materiałów, po nadzór nad realizacją - zajmujemy się wszystkim.',
+      image: '/service-8.png' // placeholder
     }
   ];
 </script>
 
-<div class="px-4 sm:px-6 lg:px-8 py-24 bg-gray-100">
-  <div class="mb-16">
-    <h2 class="text-4xl md:text-5xl font-normal">Dlaczego warto wybrać Paket?</h2>
-  </div>
-  
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
-    {#each benefits as benefit, index}
-      <div class="flex">
-        <div class="flex-shrink-0 pt-1">
-          <div class="bg-red-900 rounded-full h-3 w-3"></div>
-        </div>
-        <div class="ml-4">
-          <h3 class="text-xl font-medium mb-2">{benefit.title}</h3>
-          <p class="text-gray-700">{benefit.description}</p>
-        </div>
+<section class="py-16 md:py-24 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">ZAKRES NASZYCH USŁUG</h2>
+      <p class="text-xl text-gray-600">Co możemy dla Ciebie zrobić?</p>
+    </div>
+    
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+        {#each services as service, index}
+          <div class="service-item">
+            <div class="grid grid-cols-[80px_1fr] gap-4">
+              <div class="flex flex-col items-center">
+                
+                <!-- Placeholder for infographic image -->
+                <div class="w-36 h-36 rounded-lg flex items-center justify-center mr-16">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    class="w-36 h-36 object-contain"
+                    
+                  />
+                  
+                </div>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-3">{service.title}</h3>
+                <p class="text-gray-800">{service.description}</p>
+              </div>
+            </div>
+          </div>
+        {/each}
       </div>
-    {/each}
+    </div>
+    
+    <!-- Call to action -->
+    
   </div>
-  
-  <div class="mt-16 text-center">
-    <a href="/o-nas" class="inline-flex items-center px-8 py-3 border border-red-900 text-base font-medium rounded-full bg-transparent hover:bg-red-900 hover:text-white transition-colors duration-200">
-      Poznaj nasz zespół
-    </a>
-  </div>
-</div> 
+</section> 

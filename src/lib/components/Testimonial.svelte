@@ -1,4 +1,4 @@
-<div class="bg-red-900 min-h-screen">
+<div class="min-h-screen" style="background-color: rgb(126,119,102);">
   <div class="min-h-screen px-4 sm:px-6 lg:px-8 py-16">
     <div class="flex flex-col md:flex-row h-full relative">
       <!-- Left side with image -->
@@ -19,40 +19,40 @@
 
       <!-- Right side with content -->
       <div class="w-full md:w-1/2 pl-4 md:pl-12 flex flex-col h-auto md:h-[calc(100vh-8rem)]">
-        <!-- Testimonial Text -->
-        <div class="pt-4 md:pt-8">
-          <p class="text-white text-3xl md:text-5xl leading-tighter">
-            "Paket to najlepszy wybór w poszukiwaniu wymarzonego mieszkania. Ich profesjonalizm i znajomość rynku nieruchomości sprawiły, że znaleźliśmy idealne miejsce dla naszej rodziny. Szczególnie doceniam ich uczciwość i transparentność w procesie zakupu. Polecam każdemu, kto szuka mieszkania!"
-          </p>
+        <!-- Section Title -->
+        <div class="pt-4 md:pt-8 mb-8">
+          <h2 class="text-white text-2xl md:text-5xl font-bold mb-8">
+            Zobacz, co mówią ci którzy nam zaufali.
+          </h2>
         </div>
 
-        <!-- Bottom section with name and stories -->
-        <div class="flex mt-8 md:mt-auto pb-8 md:pb-0">
-          <!-- Name and Read Story -->
-          <div class="flex-1 group">
-            <div class="h-[72px] flex flex-col justify-start mb-6">
-              <p class="text-white font-bold">Anna Nowak</p>
-              <p class="text-white">Szczęśliwa właścicielka mieszkania</p>
-            </div>
+        <!-- Testimonials -->
+        <div class="space-y-8">
+          <!-- First Testimonial -->
+          <div class=" mb-16 ">
+            <blockquote class="text-white text-lg md:text-3xl leading-relaxed mb-4">
+              „Małymi detalami upiększyli mieszkanie – i temat sprzedaży był zamknięty w dwa tygodnie."
+            </blockquote>
+            <p class="text-white/90 text-base md:text-xl leading-relaxed mb-3">
+              Mieszkanie nie było w idealnym stanie, ale zespół Paket Nieruchomości podkreślił jego atuty tak, że oglądający byli zachwyceni wnętrzami mojego mieszkania i zdecydowali się na zakup.
+            </p>
+            <cite class="text-white">— Katarzyna Piaskowska</cite>
           </div>
 
-          <!-- Vertical Divider -->
-          <div class="border-l border-white mx-8 h-auto"></div>
-
-          <!-- All Stories -->
-          <div class="flex-1 group">
-            <div class="h-[72px] flex flex-col justify-start mb-6">
-              <p class="text-white font-bold">Opinie klientów</p>
-              <p class="text-white text-sm">Zobacz historie naszych zadowolonych klientów</p>
-            </div>
-            <div class="flex items-center">
-              <div class="w-2.5 h-2.5 rounded-full bg-white"></div>
-              <span class="ml-2 text-xs text-white font-bold uppercase opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200">
-                Zobacz wszystkie
-              </span>
-            </div>
+          <!-- Second Testimonial -->
+          <div class="">
+            <blockquote class="text-white text-lg md:text-3xl leading-relaxed mb-4">
+              „Sprawna obsługa od zakupu do wykończenia"
+            </blockquote>
+            <p class="text-white/90 text-base md:text-xl leading-relaxed mb-3">
+              Szukając mieszkania pod inwestycję, trafiłem na Paket. Znaleźli lokal w moim budżecie, sprawnie ogarnęli remont i dopięli wszystkie formalności. Dziś mam nieruchomość, która pracuje na siebie.
+            </p>
+            <cite class="text-white ">— Michał Wesołek</cite>
           </div>
         </div>
+
+        <!-- Bottom section -->
+        
       </div>
     </div>
   </div>

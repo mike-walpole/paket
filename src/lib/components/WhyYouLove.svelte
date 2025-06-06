@@ -14,7 +14,7 @@
 
 <div class="px-4 sm:px-6 lg:px-8 py-24 bg-gray-100">
   <div class="max-w-7xl mx-auto text-center">
-    <h2 class="text-4xl md:text-5xl font-normal mb-16">Co wyróżnia Paket?</h2>
+    <h2 class="text-4xl md:text-5xl font-bold mb-16">Co wyróżnia Paket?</h2>
     
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {#each reasons as reason, index}

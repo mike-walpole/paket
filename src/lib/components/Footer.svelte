@@ -3,7 +3,7 @@
     { title: 'Kupuję', href: '/kupuje' },
     { title: 'Sprzedaję', href: '/sprzedaje' },
     { title: 'Remontuję', href: '/remontuje' },
-    { title: 'Magazyn', href: '/magazyn' }
+    { title: 'Paket na Temat', href: '/magazyn' }
   ];
 
   const oFirmie = [
@@ -14,8 +14,7 @@
   ];
 
   const dlaKlienta = [
-    { title: 'Kalkulator kredytowy', href: '/kalkulator' },
-    { title: 'Pytania i odpowiedzi', href: '/faq' },
+    
     { title: 'Współpraca', href: '/wspolpraca' },
     { title: 'Kontakt', href: '/kontakt' }
   ];
@@ -27,7 +26,7 @@
   ];
 </script>
 
-<footer class="bg-red-900 text-white py-24">
+<footer class="text-white py-24" style="background-color: rgb(126,119,102);">
   <div class="px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
       <!-- Newsletter Section -->
@@ -76,18 +75,7 @@
       </div>
       
       <!-- O firmie -->
-      <div>
-        <h3 class="text-lg mb-4">O firmie</h3>
-        <ul class="space-y-2">
-          {#each oFirmie as item}
-            <li>
-              <a href={item.href} class="text-white/80 hover:text-white transition-colors duration-200">
-                {item.title}
-              </a>
-            </li>
-          {/each}
-        </ul>
-      </div>
+      
       
       <!-- Dla klienta -->
       <div>

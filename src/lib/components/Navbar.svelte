@@ -134,7 +134,7 @@
       <div class="flex items-center">
         <div class="hidden md:block">
           <a
-            href="#calendly"
+            href="/#calendly"
             class="inline-flex items-center px-4 py-2 border border-white text-sm font-medium rounded-md text-white bg-transparent hover:bg-red-900 hover:border-red-900 hover:text-white transition-colors duration-200"
           >
             Umów spotkanie

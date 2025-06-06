@@ -41,10 +41,10 @@
   });
 </script>
 
-<div class="px-4 sm:px-6 lg:px-8 py-24 ">
+<div id="calendly" class="px-4 sm:px-6 lg:px-8 py-24 ">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-4xl md:text-5xl font-normal mb-6">Porozmawiajmy o Twojej nieruchomości.</h2>
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Porozmawiajmy o Twojej nieruchomości.</h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
         Niezależnie czy chcesz sprzedać, kupić  czy potrzebujesz remontu  – jesteśmy po to, żeby ułatwić Ci ten proces.
       </p>

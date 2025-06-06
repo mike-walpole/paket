@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
+  import FormularzSp from '$lib/components/FormularzSp.svelte';
   
   // Steps data
   const steps = [
@@ -149,5 +150,5 @@
     </div>
   </section>
 </div>
-
+<FormularzSp />
 <Footer /> 

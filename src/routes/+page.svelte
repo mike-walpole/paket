@@ -89,7 +89,7 @@
 
 <FeaturedPosts posts={data.featuredPosts} />
 
-<DeliverySolution />
+
 
 <WhyYouLove />
 
