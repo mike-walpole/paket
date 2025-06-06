@@ -8,37 +8,44 @@
     {
       number: '01',
       title: 'Konsultacja i plan działania',
-      description: 'Rozpoczynamy od dokładnego poznania Twoich oczekiwań. Analizujemy stan nieruchomości, omawiamy cele remontu (zwiększenie wartości przy sprzedaży lub poprawę komfortu mieszkania) i tworzymy wstępny plan działań.'
+      description: 'Rozpoczynamy od dokładnego poznania Twoich oczekiwań. Analizujemy stan nieruchomości, omawiamy cele remontu (zwiększenie wartości przy sprzedaży lub poprawę komfortu mieszkania) i tworzymy wstępny plan działań.',
+      icon: '/remont-1.avif'
     },
     {
       number: '02',
       title: 'Analiza rynku i budżetowanie',
-      description: 'Przeprowadzamy analizę lokalnego rynku, aby określić, które modernizacje przyniosą najlepszy zwrot z inwestycji. Pomagamy zaplanować budżet, który będzie optymalny zarówno dla właścicieli planujących sprzedaż, jak i dla tych, którzy remontują dla własnych potrzeb.'
+      description: 'Przeprowadzamy analizę lokalnego rynku, aby określić, które modernizacje przyniosą najlepszy zwrot z inwestycji. Pomagamy zaplanować budżet, który będzie optymalny zarówno dla właścicieli planujących sprzedaż, jak i dla tych, którzy remontują dla własnych potrzeb.',
+      icon: '/remont-2.avif'
     },
     {
       number: '03',
       title: 'Projekt i wizualizacja',
-      description: 'Przygotowujemy profesjonalny projekt uwzględniający aktualne trendy i Twoje preferencje. Tworzymy wizualizacje, które pozwalają zobaczyć efekt końcowy przed rozpoczęciem prac, co jest szczególnie istotne przy remontach pod kątem przyszłej sprzedaży.'
+      description: 'Przygotowujemy profesjonalny projekt uwzględniający aktualne trendy i Twoje preferencje. Tworzymy wizualizacje, które pozwalają zobaczyć efekt końcowy przed rozpoczęciem prac, co jest szczególnie istotne przy remontach pod kątem przyszłej sprzedaży.',
+      icon: '/remont-3.avif'
     },
     {
       number: '04',
       title: 'Dobór materiałów i wykonawców',
-      description: 'Pomagamy w wyborze wysokiej jakości materiałów w optymalnej relacji jakości do ceny. Współpracujemy ze sprawdzonymi wykonawcami, którzy gwarantują solidność i terminowość realizacji, niezależnie od skali remontu.'
+      description: 'Pomagamy w wyborze wysokiej jakości materiałów w optymalnej relacji jakości do ceny. Współpracujemy ze sprawdzonymi wykonawcami, którzy gwarantują solidność i terminowość realizacji, niezależnie od skali remontu.',
+      icon: '/remont-4.avif'
     },
     {
       number: '05',
       title: 'Koordynacja i nadzór prac',
-      description: 'Zajmujemy się kompleksową koordynacją wszystkich etapów remontu. Nadzorujemy wykonawców, dbamy o zgodność z projektem i reagujemy na bieżąco na wszelkie nieprzewidziane sytuacje, zapewniając Ci spokój podczas całego procesu.'
+      description: 'Zajmujemy się kompleksową koordynacją wszystkich etapów remontu. Nadzorujemy wykonawców, dbamy o zgodność z projektem i reagujemy na bieżąco na wszelkie nieprzewidziane sytuacje, zapewniając Ci spokój podczas całego procesu.',
+      icon: '/remont-5.avif'
     },
     {
       number: '06',
       title: 'Kontrola jakości i odbiór',
-      description: 'Przeprowadzamy szczegółową kontrolę jakości wykonanych prac. Dbamy o to, aby każdy element spełniał uzgodnione standardy, a wykończenie było perfekcyjne – co ma kluczowe znaczenie zarówno przy sprzedaży, jak i dla własnego komfortu.'
+      description: 'Przeprowadzamy szczegółową kontrolę jakości wykonanych prac. Dbamy o to, aby każdy element spełniał uzgodnione standardy, a wykończenie było perfekcyjne – co ma kluczowe znaczenie zarówno przy sprzedaży, jak i dla własnego komfortu.',
+      icon: '/remont-6.avif'
     },
     {
       number: '07',
       title: 'Finalizacja i doradztwo po remoncie',
-      description: 'Po zakończeniu remontu oferujemy doradztwo w zakresie aranżacji wnętrz, a w przypadku nieruchomości na sprzedaż – profesjonalny home staging i strategię marketingową, która podkreśli wszystkie zalety odnowionej przestrzeni.'
+      description: 'Po zakończeniu remontu oferujemy doradztwo w zakresie aranżacji wnętrz, a w przypadku nieruchomości na sprzedaż – profesjonalny home staging i strategię marketingową, która podkreśli wszystkie zalety odnowionej przestrzeni.',
+      icon: '/remont-7.avif'
     }
   ];
 </script>
@@ -116,13 +123,25 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-12">
           {#each steps as step, index}
             <div class="step-item {steps.length % 2 !== 0 && index === steps.length - 1 ? 'md:col-span-2 md:max-w-md md:mx-auto' : ''}">
-              <div class="grid grid-cols-[80px_1fr] gap-4">
-                <div class="text-4xl font-bold text-gray-400 flex items-center justify-center">
-                  {step.number}
+              <div class="grid grid-cols-[120px_1fr] gap-6">
+                <div class="flex items-start justify-center pt-2">
+                  <img 
+                    src={step.icon} 
+                    alt={step.title}
+                    class="w-20 h-20 object-contain"
+                    on:error={(e) => {
+                      // Fallback to number if image fails to load
+                      e.target.style.display = 'none';
+                      e.target.nextElementSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div class="text-4xl font-bold text-gray-400 items-center justify-center hidden">
+                    {step.number}
+                  </div>
                 </div>
-                <div>
-                  <h3 class="text-xl font-bold mb-3">{step.title}</h3>
-                  <p class="text-gray-800">{step.description}</p>
+                <div class="pt-2">
+                  <h3 class="text-xl font-bold mb-4">{step.title}</h3>
+                  <p class="text-gray-800 leading-relaxed">{step.description}</p>
                 </div>
               </div>
             </div>

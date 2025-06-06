@@ -8,42 +8,50 @@
     {
       number: '01',
       title: 'Pierwsza rozmowa i określenie potrzeb',
-      description: 'Na początku poznajemy Twoje oczekiwania. Określimy, jakiego mieszkania szukasz – lokalizacja, metraż, budżet i inne ważne szczegóły. Dopasujemy oferty do Twoich potrzeb.'
+      description: 'Na początku poznajemy Twoje oczekiwania. Określimy, jakiego mieszkania szukasz – lokalizacja, metraż, budżet i inne ważne szczegóły. Dopasujemy oferty do Twoich potrzeb.',
+      icon: '/kupuje-1.avif'
     },
     {
       number: '02',
       title: 'Prezentacja ofert dopasowanych do Ciebie',
-      description: 'Na podstawie Twoich kryteriów przedstawiamy Ci mieszkania, które najlepiej odpowiadają Twoim wymaganiom. Każda oferta zawiera szczegółowe informacje, zdjęcia oraz pełen opis nieruchomości.'
+      description: 'Na podstawie Twoich kryteriów przedstawiamy Ci mieszkania, które najlepiej odpowiadają Twoim wymaganiom. Każda oferta zawiera szczegółowe informacje, zdjęcia oraz pełen opis nieruchomości.',
+      icon: '/kupuje-2.avif'
     },
     {
       number: '03',
       title: 'Wizyty i oglądanie mieszkań',
-      description: 'Umawiamy prezentacje wybranych mieszkań, dzięki czemu osobiście możesz ocenić, czy to odpowiednia opcja. Odpowiadamy na Twoje pytania i pomagamy w podjęciu decyzji.'
+      description: 'Umawiamy prezentacje wybranych mieszkań, dzięki czemu osobiście możesz ocenić, czy to odpowiednia opcja. Odpowiadamy na Twoje pytania i pomagamy w podjęciu decyzji.',
+      icon: '/kupuje-3.avif'
     },
     {
       number: '04',
       title: 'Negocjacje i doradztwo',
-      description: 'Gdy znajdziesz wymarzone mieszkanie, zajmiemy się negocjacjami ceny oraz warunków transakcji, dbając o Twoje interesy.'
+      description: 'Gdy znajdziesz wymarzone mieszkanie, zajmiemy się negocjacjami ceny oraz warunków transakcji, dbając o Twoje interesy.',
+      icon: '/kupuje-4.avif'
     },
     {
       number: '05',
       title: 'Sprawdzenie stanu prawnego nieruchomości',
-      description: 'Zanim zdecydujesz się na zakup, sprawdzamy stan prawny nieruchomości, aby zapewnić Ci pełną pewność, że nie ma żadnych ukrytych problemów prawnych.'
+      description: 'Zanim zdecydujesz się na zakup, sprawdzamy stan prawny nieruchomości, aby zapewnić Ci pełną pewność, że nie ma żadnych ukrytych problemów prawnych.',
+      icon: '/kupuje-5.avif'
     },
     {
       number: '06',
       title: 'Wsparcie przy formalnościach',
-      description: 'Pomagamy w skompletowaniu wszelkich dokumentów, takich jak umowa przedwstępna, oraz zajmujemy się kontaktem z notariuszem, by proces zakupu przebiegł sprawnie i bez stresu.'
+      description: 'Pomagamy w skompletowaniu wszelkich dokumentów, takich jak umowa przedwstępna, oraz zajmujemy się kontaktem z notariuszem, by proces zakupu przebiegł sprawnie i bez stresu.',
+      icon: '/kupuje-6.avif'
     },
     {
       number: '07',
       title: 'Finalizacja transakcji',
-      description: 'Po podpisaniu umowy notarialnej przekazujemy Ci klucze do nowego mieszkania. Jeśli zdecydujesz się na usługi wykończenia, rozpoczynamy proces realizacji projektu, aby Twoje mieszkanie było gotowe do zamieszkania w najkrótszym możliwym czasie.'
+      description: 'Po podpisaniu umowy notarialnej przekazujemy Ci klucze do nowego mieszkania. Jeśli zdecydujesz się na usługi wykończenia, rozpoczynamy proces realizacji projektu, aby Twoje mieszkanie było gotowe do zamieszkania w najkrótszym możliwym czasie.',
+      icon: '/kupuje-7.avif'
     },
     {
       number: '08',
       title: 'Jeśli potrzebujesz remontu w swoim nowym mieszkaniu',
-      description: 'Darmowa wycena wykończenia mieszkania. Doradzimy, przygotujemy wizualizację i przygotujemy kosztorys dopasowany do Twoich potrzeb. Od prac remontowych po umeblowanie – wszystko pod klucz.'
+      description: 'Darmowa wycena wykończenia mieszkania. Doradzimy, przygotujemy wizualizację i przygotujemy kosztorys dopasowany do Twoich potrzeb. Od prac remontowych po umeblowanie – wszystko pod klucz.',
+      icon: '/kupuje-8.avif'
     }
   ];
 </script>
@@ -129,13 +137,25 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-12">
           {#each steps as step, index}
             <div class="step-item {steps.length % 2 !== 0 && index === steps.length - 1 ? 'md:col-span-2 md:max-w-md md:mx-auto' : ''}">
-              <div class="grid grid-cols-[80px_1fr] gap-4">
-                <div class="text-4xl font-bold text-gray-400 flex items-center justify-center">
-                  {step.number}
+              <div class="grid grid-cols-[120px_1fr] gap-6">
+                <div class="flex items-start justify-center pt-2">
+                  <img 
+                    src={step.icon} 
+                    alt={step.title}
+                    class="w-20 h-20 object-contain"
+                    on:error={(e) => {
+                      // Fallback to number if image fails to load
+                      e.target.style.display = 'none';
+                      e.target.nextElementSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div class="text-4xl font-bold text-gray-400 items-center justify-center hidden">
+                    {step.number}
+                  </div>
                 </div>
-                <div>
-                  <h3 class="text-xl font-bold mb-3">{step.title}</h3>
-                  <p class="text-gray-800">{step.description}</p>
+                <div class="pt-2">
+                  <h3 class="text-xl font-bold mb-4">{step.title}</h3>
+                  <p class="text-gray-800 leading-relaxed">{step.description}</p>
                 </div>
               </div>
             </div>

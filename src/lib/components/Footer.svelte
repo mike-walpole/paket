@@ -30,35 +30,7 @@
   <div class="px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
       <!-- Newsletter Section -->
-      <div>
-        <h3 class="text-lg mb-4">Newsletter Paket</h3>
-        <p class="text-white/80 text-base mb-6">
-          Zapisz się na nasz newsletter, aby otrzymywać informacje o nowościach w ofercie, promocjach dla firm oraz ekologicznych rozwiązaniach w branży opakowań.
-        </p>
-        <a 
-          href="/newsletter" 
-          class="inline-flex items-center px-6 py-2 border border-white rounded-full text-sm font-normal hover:bg-white hover:text-red-900 transition-colors duration-200"
-        >
-          Zapisz się
-        </a>
-        
-        <!-- Social Icons -->
-        <div class="flex space-x-4 mt-8">
-          {#each social as network}
-            <a
-              href={network.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={network.name}
-              class="text-white/70 hover:text-white transition-colors duration-200"
-            >
-              <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path d={network.icon}></path>
-              </svg>
-            </a>
-          {/each}
-        </div>
-      </div>
+     
       
       <!-- Produkty -->
       <div>
@@ -79,7 +51,7 @@
       
       <!-- Dla klienta -->
       <div>
-        <h3 class="text-lg mb-4">Dla klienta</h3>
+        <h3 class="text-lg mb-4">O nas</h3>
         <ul class="space-y-2">
           {#each dlaKlienta as item}
             <li>

@@ -8,43 +8,43 @@
   const steps = [
     {
       number: '01',
-      image: '/sp-1.png',
+      image: '/sell-1.avif',
       title: 'Rozpoczynamy współpracę',
       description: 'Pierwszy kontakt to moment, w którym poznajemy Twoje oczekiwania i przedstawiamy, jak możemy Ci pomóc. Omawiamy strategię sprzedaży i dopasowujemy ją do Twojej nieruchomości.'
     },
     {
       number: '02',
-      image: '/sp-2.png',
+      image: '/sell-2.avif',
       title: 'Wycena i analiza rynku',
       description: 'Każda nieruchomość jest inna, dlatego przeprowadzamy dokładną analizę rynku i pomagamy ustalić najlepszą cenę, tak aby była konkurencyjna i atrakcyjna dla kupujących.'
     },
     {
       number: '03',
-      image: '/sp-3.png',
+      image: '/sell-3.avif',
       title: 'Profesjonalne przygotowanie nieruchomości',
       description: 'Aby Twoja oferta wyróżniała się na tle innych, zajmujemy się home stagingiem, wykonujemy profesjonalne zdjęcia i nagrania wideo, a w razie potrzeby także ujęcia z drona. Naszym celem jest maksymalne podkreślenie atutów mieszkania.'
     },
     {
       number: '04',
-      image: '/sp-4.png',
+      image: '/sell-4.avif',
       title: 'Skuteczna promocja',
       description: 'Publikujemy ofertę na kluczowych portalach nieruchomościowych, w mediach społecznościowych i korzystamy z niestandardowych metod promocji, aby dotrzeć do jak największej liczby potencjalnych nabywców.'
     },
     {
       number: '05',
-      image: '/sp-5.png',
+      image: '/sell-5.avif',
       title: 'Prezentacja mieszkania i negocjacje',
       description: 'Zajmujemy się organizacją pokazów nieruchomości i rozmowami z zainteresowanymi klientami. Prowadzimy negocjacje, aby uzyskać dla Ciebie jak najlepsze warunki sprzedaży.'
     },
     {
       number: '06',
-      image: '/sp-6.png',
+      image: '/sell-6.avif',
       title: 'Formalności i dokumenty',
       description: 'Pomagamy w skompletowaniu wszystkich niezbędnych dokumentów, wyjaśniamy formalności i zapewniamy pełne wsparcie na każdym etapie transakcji. Współpracujemy także z kancelariami prawnymi i notariuszami.'
     },
     {
       number: '07',
-      image: '/sp-7.png',
+      image: '/sell-7.avif',
       title: 'Finalizacja transakcji',
       description: 'Koordynujemy cały proces aż do podpisania aktu notarialnego i przekazania kluczy nowemu właścicielowi. Dbamy o to, aby wszystko przebiegło sprawnie i bezproblemowo.'
     }
@@ -134,13 +134,25 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-12">
           {#each steps as step, index}
             <div class="step-item {steps.length % 2 !== 0 && index === steps.length - 1 ? 'md:col-span-2 md:max-w-md md:mx-auto' : ''}">
-              <div class="grid grid-cols-[80px_1fr] gap-4">
-                <div class="flex items-center justify-center">
-                  <img src={step.image} alt={`Krok ${step.number}`} class="h-12 w-auto object-contain" />
+              <div class="grid grid-cols-[120px_1fr] gap-6">
+                <div class="flex items-start justify-center pt-2">
+                  <img 
+                    src={step.image} 
+                    alt={step.title}
+                    class="w-20 h-20 object-contain"
+                    on:error={(e) => {
+                      // Fallback to number if image fails to load
+                      e.target.style.display = 'none';
+                      e.target.nextElementSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div class="text-4xl font-bold text-gray-400 items-center justify-center hidden">
+                    {step.number}
+                  </div>
                 </div>
-                <div>
-                  <h3 class="text-xl font-bold mb-3">{step.title}</h3>
-                  <p class="text-gray-800">{step.description}</p>
+                <div class="pt-2">
+                  <h3 class="text-xl font-bold mb-4">{step.title}</h3>
+                  <p class="text-gray-800 leading-relaxed">{step.description}</p>
                 </div>
               </div>
             </div>
