@@ -59,25 +59,25 @@
     </div>
     
     <div class="max-w-6xl mx-auto">
-      <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+      <div class="grid md:grid-cols-2 gap-12">
         {#each services as service, index}
           <div class="service-item">
-            <div class="grid grid-cols-[80px_1fr] gap-4">
-              <div class="flex flex-col items-center">
+            <div class="">
+              <div class="flex flex-col items-center justify-center">
                 
                 <!-- Placeholder for infographic image -->
-                <div class="w-36 h-36 rounded-lg flex items-center justify-center mr-16">
+                <div class="w-16 h-16 rounded-lg flex items-center justify-center">
                   <img 
                     src={service.image} 
                     alt={service.title}
-                    class="w-36 h-36 object-contain"
+                    class="w-16 h-16 object-contain"
                     
                   />
                   
                 </div>
               </div>
               <div>
-                <h3 class="text-xl font-bold mb-3">{service.title}</h3>
+                <h3 class="text-xl font-bold my-3">{service.title}</h3>
                 <p class="text-gray-800">{service.description}</p>
               </div>
             </div>

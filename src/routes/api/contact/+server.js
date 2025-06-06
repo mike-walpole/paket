@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import { json } from '@sveltejs/kit';
 
-const resend = new Resend('re_123456789'); // Replace with your actual Resend API key
+const resend = new Resend('re_SvjKPMpv_DLRmpq7x5uXsgaCmvxfs1g5e'); // Replace with your actual Resend API key
 
 export async function POST({ request }) {
   try {
@@ -36,8 +36,8 @@ Data zgłoszenia: ${new Date().toLocaleString('pl-PL')}
     `.trim();
 
     const { data, error } = await resend.emails.send({
-      from: 'Formularz Paket <noreply@yourdomain.com>', // Replace with your verified domain
-      to: ['your-email@example.com'], // Replace with your email address
+      from: 'Formularz Paket <noreply@updates.paketnieruchomosci.pl>', // Replace with your verified domain
+      to: ['biuro@paketnieruchomosci.pl'], // Replace with your email address
       subject: `Nowe zgłoszenie sprzedaży od ${formData.imie} ${formData.nazwisko}`,
       text: emailContent,
       html: `

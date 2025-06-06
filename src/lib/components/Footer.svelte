@@ -26,7 +26,7 @@
   ];
 </script>
 
-<footer class="text-white py-24" style="background-color: rgb(126,119,102);">
+<footer class="text-gray-900 py-24" style="background-color: #F8F5F1;">
   <div class="px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
       <!-- Newsletter Section -->
@@ -38,7 +38,7 @@
         <ul class="space-y-2">
           {#each produkty as item}
             <li>
-              <a href={item.href} class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href={item.href} class="text-gray-700 hover:text-gray-900 transition-colors duration-200">
                 {item.title}
               </a>
             </li>
@@ -55,7 +55,7 @@
         <ul class="space-y-2">
           {#each dlaKlienta as item}
             <li>
-              <a href={item.href} class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href={item.href} class="text-gray-700 hover:text-gray-900 transition-colors duration-200">
                 {item.title}
               </a>
             </li>
@@ -65,18 +65,18 @@
     </div>
     
     <!-- Bottom section with copyright -->
-    <div class="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-start md:items-center">
-      <p class="text-white/60 text-sm mb-4 md:mb-0">
+    <div class="mt-16 pt-8 border-t border-gray-300 flex flex-col md:flex-row justify-between items-start md:items-center">
+      <p class="text-gray-600 text-sm mb-4 md:mb-0">
         &copy; {new Date().getFullYear()} Paket. Wszelkie prawa zastrzeżone.
       </p>
       <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
-        <a href="/polityka-prywatnosci" class="text-white/60 hover:text-white text-sm">
+        <a href="/polityka-prywatnosci" class="text-gray-600 hover:text-gray-900 text-sm">
           Polityka prywatności
         </a>
-        <a href="/regulamin" class="text-white/60 hover:text-white text-sm">
+        <a href="/regulamin" class="text-gray-600 hover:text-gray-900 text-sm">
           Regulamin
         </a>
-        <a href="/cookie" class="text-white/60 hover:text-white text-sm">
+        <a href="/cookie" class="text-gray-600 hover:text-gray-900 text-sm">
           Polityka cookie
         </a>
       </div>

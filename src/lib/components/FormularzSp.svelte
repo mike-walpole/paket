@@ -56,7 +56,7 @@
     if (!formData.telefon.trim()) errors.telefon = 'Telefon kontaktowy jest wymagany';
     if (!formData.rodzajNieruchomosci) errors.rodzajNieruchomosci = 'Wybierz rodzaj nieruchomości';
     if (!formData.lokalizacja.trim()) errors.lokalizacja = 'Lokalizacja jest wymagana';
-    if (!formData.powierzchnia.trim()) errors.powierzchnia = 'Powierzchnia jest wymagana';
+    if (!formData.powierzchnia || String(formData.powierzchnia).trim() === '') errors.powierzchnia = 'Powierzchnia jest wymagana';
     else if (isNaN(formData.powierzchnia) || parseFloat(formData.powierzchnia) <= 0) errors.powierzchnia = 'Podaj prawidłową powierzchnię';
     if (!formData.zgodaPrzetwarzanie) errors.zgodaPrzetwarzanie = 'Musisz wyrazić zgodę na przetwarzanie danych';
     

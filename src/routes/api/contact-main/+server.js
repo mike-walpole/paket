@@ -9,71 +9,65 @@ export async function POST({ request }) {
     
     // Format the form data into a readable email
     const emailContent = `
-Nowe zgłoszenie zakupu nieruchomości od ${formData.imieNazwisko}
+Nowe zgłoszenie główne od ${formData.name}
 
 DANE KONTAKTOWE:
-- Imię i nazwisko: ${formData.imieNazwisko}
-- Telefon: ${formData.telefon}
+- Imię i nazwisko: ${formData.name}
 - Email: ${formData.email}
+- Telefon: ${formData.phoneNumber}
 
-POSZUKIWANA NIERUCHOMOŚĆ:
-- Typ: ${formData.typNieruchomosci}
-- Lokalizacja: ${formData.lokalizacja || 'Nie podano'}
-- Powierzchnia: ${formData.powierzchniaOd ? `${formData.powierzchniaOd} - ${formData.powierzchniaDo} m²` : 'Nie podano'}
-- Liczba pokoi: ${formData.liczbaPokoi || 'Nie podano'}
-- Stan wykończenia: ${formData.stanWykonczenia || 'Nie podano'}
-- Budżet: ${formData.budzet || 'Nie podano'}
-
-DODATKOWE UWAGI:
-${formData.dodatkoweUwagi || 'Brak dodatkowych uwag'}
+SZCZEGÓŁY ZAPYTANIA:
+- Cel: ${formData.purpose}
+- Wiadomość: ${formData.message || 'Brak dodatkowej wiadomości'}
 
 ZGODY:
 - Przetwarzanie danych: ${formData.zgodaPrzetwarzanie ? 'TAK' : 'NIE'}
-- Marketing i oferty: ${formData.zgodaMarketing ? 'TAK' : 'NIE'}
+- Marketing: ${formData.zgodaMarketing ? 'TAK' : 'NIE'}
 
 ---
 Data zgłoszenia: ${new Date().toLocaleString('pl-PL')}
     `.trim();
 
+    const purposeLabels = {
+      'kupic': 'Kupić nieruchomość',
+      'sprzedac': 'Sprzedać nieruchomość', 
+      'wyremontowac': 'Wyremontować nieruchomość'
+    };
+
     const { data, error } = await resend.emails.send({
-        from: 'Formularz Paket <noreply@updates.paketnieruchomosci.pl>', // Replace with your verified domain
-        to: ['biuro@paketnieruchomosci.pl'], // Replace with your email address
-      subject: `Nowe zgłoszenie zakupu od ${formData.imieNazwisko}`,
+      from: 'Formularz Paket <noreply@updates.paketnieruchomosci.pl>', // Replace with your verified domain
+      to: ['biuro@paketnieruchomosci.pl'], // Replace with your email address
+      subject: `Nowe zgłoszenie główne od ${formData.name}`,
       text: emailContent,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
           <h2 style="color: #7f1d1d; border-bottom: 2px solid #7f1d1d; padding-bottom: 10px;">
-            Nowe zgłoszenie zakupu nieruchomości
+            Nowe zgłoszenie główne
           </h2>
           
           <div style="background-color: #f9fafb; padding: 15px; border-radius: 8px; margin: 20px 0;">
             <h3 style="color: #374151; margin-top: 0;">Dane kontaktowe</h3>
-            <p><strong>Imię i nazwisko:</strong> ${formData.imieNazwisko}</p>
-            <p><strong>Telefon:</strong> <a href="tel:${formData.telefon}">${formData.telefon}</a></p>
+            <p><strong>Imię i nazwisko:</strong> ${formData.name}</p>
             <p><strong>Email:</strong> <a href="mailto:${formData.email}">${formData.email}</a></p>
+            <p><strong>Telefon:</strong> <a href="tel:${formData.phoneNumber}">${formData.phoneNumber}</a></p>
           </div>
           
           <div style="background-color: #f9fafb; padding: 15px; border-radius: 8px; margin: 20px 0;">
-            <h3 style="color: #374151; margin-top: 0;">Poszukiwana nieruchomość</h3>
-            <p><strong>Typ:</strong> ${formData.typNieruchomosci}</p>
-            <p><strong>Lokalizacja:</strong> ${formData.lokalizacja || 'Nie podano'}</p>
-            <p><strong>Powierzchnia:</strong> ${formData.powierzchniaOd ? `${formData.powierzchniaOd} - ${formData.powierzchniaDo} m²` : 'Nie podano'}</p>
-            <p><strong>Liczba pokoi:</strong> ${formData.liczbaPokoi || 'Nie podano'}</p>
-            <p><strong>Stan wykończenia:</strong> ${formData.stanWykonczenia || 'Nie podano'}</p>
-            <p><strong>Budżet:</strong> ${formData.budzet || 'Nie podano'}</p>
+            <h3 style="color: #374151; margin-top: 0;">Szczegóły zapytania</h3>
+            <p><strong>Cel:</strong> ${purposeLabels[formData.purpose] || formData.purpose}</p>
           </div>
           
-          ${formData.dodatkoweUwagi ? `
+          ${formData.message ? `
           <div style="background-color: #f9fafb; padding: 15px; border-radius: 8px; margin: 20px 0;">
-            <h3 style="color: #374151; margin-top: 0;">Dodatkowe uwagi</h3>
-            <p style="white-space: pre-wrap;">${formData.dodatkoweUwagi}</p>
+            <h3 style="color: #374151; margin-top: 0;">Wiadomość</h3>
+            <p style="white-space: pre-wrap;">${formData.message}</p>
           </div>
           ` : ''}
           
           <div style="background-color: #f9fafb; padding: 15px; border-radius: 8px; margin: 20px 0;">
             <h3 style="color: #374151; margin-top: 0;">Zgody</h3>
             <p><strong>Przetwarzanie danych:</strong> ${formData.zgodaPrzetwarzanie ? '✅ TAK' : '❌ NIE'}</p>
-            <p><strong>Marketing i oferty:</strong> ${formData.zgodaMarketing ? '✅ TAK' : '❌ NIE'}</p>
+            <p><strong>Marketing:</strong> ${formData.zgodaMarketing ? '✅ TAK' : '❌ NIE'}</p>
           </div>
           
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb; font-size: 12px; color: #6b7280;">

@@ -6,17 +6,78 @@
   let company = '';
   let message = '';
   let phoneNumber = '';
+  let purpose = '';
+  let zgodaPrzetwarzanie = false;
+  let zgodaMarketing = false;
   let formSubmitted = false;
   let formError = false;
+  let isSubmitting = false;
+  let errors = {};
 
-  function handleSubmit() {
-    if (name && email && message) {
-      formSubmitted = true;
-      formError = false;
-      // Here you would normally send the form data to your backend
-      // For demo purposes, we're just setting a success state
-    } else {
+  // Check if form can be submitted (both checkboxes must be checked)
+  $: canSubmit = zgodaPrzetwarzanie && zgodaMarketing;
+
+  async function handleSubmit() {
+    errors = {};
+    
+    if (!name || !email || !phoneNumber || !purpose) {
       formError = true;
+      return;
+    }
+
+    if (!zgodaPrzetwarzanie) {
+      errors.zgodaPrzetwarzanie = 'Musisz wyrazić zgodę na przetwarzanie danych';
+      formError = true;
+      return;
+    }
+
+    if (!zgodaMarketing) {
+      errors.zgodaMarketing = 'Musisz wyrazić zgodę na marketing';
+      formError = true;
+      return;
+    }
+
+    isSubmitting = true;
+    formError = false;
+
+    try {
+      const response = await fetch('/api/contact-main', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          phoneNumber,
+          purpose,
+          message,
+          zgodaPrzetwarzanie,
+          zgodaMarketing
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        formSubmitted = true;
+        // Reset form
+        name = '';
+        email = '';
+        phoneNumber = '';
+        purpose = '';
+        message = '';
+        zgodaPrzetwarzanie = false;
+        zgodaMarketing = false;
+        errors = {};
+      } else {
+        formError = true;
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      formError = true;
+    } finally {
+      isSubmitting = false;
     }
   }
 
@@ -156,6 +217,7 @@
             <label for="purpose" class="block text-sm font-medium text-gray-700 mb-1">Chcę</label>
             <select
               id="purpose"
+              bind:value={purpose}
               class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-red-900 focus:border-red-900"
               required
             >
@@ -177,15 +239,61 @@
             ></textarea>
           </div>
 
+          <!-- Consent checkboxes -->
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <input
+                type="checkbox"
+                id="zgodaPrzetwarzanie"
+                bind:checked={zgodaPrzetwarzanie}
+                class="mt-1 h-4 w-4 text-red-900 focus:ring-red-900 border-gray-300 rounded"
+              />
+              <label for="zgodaPrzetwarzanie" class="ml-2 block text-sm text-gray-700">
+                <span class="text-red-900">*</span>
+                Wyrażam zgodę na przetwarzanie moich danych osobowych przez Paket Invest Sp. z o.o., właściciela marki Paket Nieruchomości, w celu odpowiedzi na przesłane zapytanie, zgodnie z polityką prywatności.
+              </label>
+            </div>
+            {#if errors.zgodaPrzetwarzanie}
+              <p class="text-sm text-red-900">{errors.zgodaPrzetwarzanie}</p>
+            {/if}
+            
+            <div class="flex items-start">
+              <input
+                type="checkbox"
+                id="zgodaMarketing"
+                bind:checked={zgodaMarketing}
+                class="mt-1 h-4 w-4 text-red-900 focus:ring-red-900 border-gray-300 rounded"
+              />
+              <label for="zgodaMarketing" class="ml-2 block text-sm text-gray-700">
+                <span class="text-red-900">*</span>
+                Wyrażam zgodę na otrzymywanie od Paket Invest Sp. z.o.o właściciela marki Paket Nieruchomości informacji handlowych drogą elektroniczną (e-mail, SMS, telefon)
+              </label>
+            </div>
+            {#if errors.zgodaMarketing}
+              <p class="text-sm text-red-900">{errors.zgodaMarketing}</p>
+            {/if}
+          </div>
+
           <button
             type="submit"
-            class="w-full bg-red-900 text-white py-3 px-4 rounded-md hover:bg-red-950 transition-colors duration-200"
+            disabled={!canSubmit || isSubmitting}
+            class="w-full py-3 px-4 rounded-md transition-colors duration-200 flex items-center justify-center {canSubmit && !isSubmitting
+              ? 'bg-red-900 text-white hover:bg-red-950' 
+              : 'bg-gray-300 text-gray-500 cursor-not-allowed'}"
           >
-            Wyślij wiadomość
+            {#if isSubmitting}
+              <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+              Wysyłanie...
+            {:else}
+              Wyślij wiadomość
+            {/if}
           </button>
 
           {#if formError}
-            <p class="text-red-600 text-sm text-center">Proszę wypełnić wszystkie wymagane pola.</p>
+            <p class="text-red-600 text-sm text-center">Proszę wypełnić wszystkie wymagane pola lub spróbować ponownie.</p>
           {/if}
 
           {#if formSubmitted}
