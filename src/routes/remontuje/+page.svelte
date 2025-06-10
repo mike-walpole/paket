@@ -68,7 +68,7 @@
     <div class="absolute inset-0 bg-black/20 z-10"></div>
     <div class="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center" >
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Remontuję nieruchomość</h1>
-      <p class="text-xl md:text-2xl text-white max-w-3xl">Kompleksowe remonty dla zwiększenia wartości i komfortu</p>
+      <p class="text-xl md:text-2xl text-white max-w-3xl">Kompleksowo i na miarę.</p>
     </div>
   </div>
 
@@ -77,7 +77,7 @@
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <p class="text-lg mb-8 leading-relaxed">
-          Podchodzimy do każdego remontu indywidualnie, niezależnie od tego, czy planujesz sprzedaż nieruchomości, czy remont dla własnego komfortu. Łączymy estetykę z funkcjonalnością, dbając o każdy detal, który podniesie wartość Twojej przestrzeni.
+          Wykończenia realizujemy kompleksowo – z myślą o funkcjonalności, estetyce i trwałości. Każdy projekt oparty jest na analizie Twoich oczekiwań, stylu życia oraz realnych możliwości nieruchomości. To przemyślany proces który spełni Twoje oczekiwania. 
         </p>
         
         <ul class="space-y-3 mb-8">
@@ -85,25 +85,31 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Jasna wycena całości</strong> – znasz całkowity koszt zakupu i wykończenia jeszcze przed decyzją.</span>
+            <span><strong>Kosztorys przed startem</strong> – transparentnie, bez niedomówień.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Funkcjonalna przestrzeń </strong> – podpowiemy Ci np. że wyburzając jedną ścianę, zyskasz większą łazienkę lub lepszy układ salonu – i pokażemy to na wizualizacji.</span>
+            <span><strong>Funkcjonalny układ </strong> – doradzamy optymalne rozwiązania i pokazujemy je na wizualizacjach.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Nowoczesne wykończenie</strong> – wnętrza zgodne z aktualnymi trendami i na lata.</span>
+            <span><strong>Dopasowane materiały i rozwiązania</strong> – zgodnie z celem: komfort mieszkania lub rentowność wynajmu.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Spokój i wygoda</strong> – zajmujemy się wszystkim: od znalezienia nieruchomości, przez formalności, projekt i remont, aż po przekazanie kluczy.</span>
+            <span><strong>Spójny proces od A do Z</strong> – projekt, logistyka, wykonanie, finalny odbiór.</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Pełna personalizacja</strong> – wnętrze tworzone pod Ciebie, nie według schematu.</span>
           </li>
         </ul>
         
@@ -125,7 +131,55 @@
           class="w-full h-auto object-cover rounded-lg"
         />
       </div>
-      
+<!---tick boxes after the mid-page image-->
+      <div class="max-w-4xl mx-auto mb-16">
+        <h3 class="text-2xl md:text-3xl font-bold text-center mb-10">Co wchodzi w skład usługi?</h3>
+        <ul class="space-y-4 text-lg">
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Projekt i wizualizacje</strong> – dopasowane do założeń funkcjonalnych i estetycznych</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Kompleksowe wykonawstwo</strong> – pełna realizacja prac wykończeniowych</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Montaż podłóg, drzwi, oświetlenia</strong> – kompletna aranżacja przestrzeni</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Układanie glazury, malowanie ścian</strong> – z dbałością o każdy detal</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Instalacje elektryczne i hydrauliczne</strong> – fachowe podejście, zgodne z normami</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Meble na wymiar</strong> – kuchnie, szafy, zabudowy, stolarka dopasowana do wnętrza</span>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-900 mr-3 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Sprzątanie po zakończeniu</strong> – przestrzeń gotowa do zamieszkania</span>
+          </li>
+        </ul>
+      </div>
+
       <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Jak przebiega proces remontu z nami?</h2>
       
       <div class="max-w-6xl mx-auto">

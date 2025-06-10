@@ -1,8 +1,8 @@
 <script>
   const services = [
     {
-      title: 'Sprzedaję nieruchomość',
-      description: 'Sprzedajemy mieszkania poprawnie i z pełnym zaangażowaniem.',
+      title: 'Chcę sprzedać nieruchomość',
+      description: 'Sprzedamy Twoją nieruchomość sprawnie i z pełnym zaangażowaniem.',
       href: '/sprzedaje',
       buttonText: 'Sprawdź ofertę',
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-16 h-16">
@@ -11,8 +11,8 @@
       </svg>`
     },
     {
-      title: 'Kupuję nieruchomość', 
-      description: 'Znajdziemy coś, co naprawdę pasuje do Ciebie.',
+      title: 'Chcę kupić nieruchomość', 
+      description: 'Znajdziemy coś, co naprawdę do Ciebie pasuje. A jeśli zechcesz – wykończymy je pod klucz.',
       href: '/kupuje',
       buttonText: 'Zobacz, co możemy dla Ciebie zrobić',
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-16 h-16">
@@ -21,8 +21,8 @@
       </svg>`
     },
     {
-      title: 'Remontuję',
-      description: 'Wizja, projekt, doradztwo, realizacja - po prostu się tym zajmiemy.',
+      title: 'Wykończenie pod klucz',
+      description: 'Remont mieszkania  od projektu do realizacji. Po prostu się tym zajmiemy.',
       href: '/remontuje',
       buttonText: 'Sprawdź ofertę',
       icon: `<img src="/paint-roller.png" alt="Paint roller icon" class="w-16 h-16 object-contain" />`

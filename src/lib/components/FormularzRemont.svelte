@@ -121,7 +121,7 @@
           Planujesz remont albo wykończenie lokalu?
         </h2>
         <p class="text-lg text-gray-600">
-          Wypełnij formularz – przygotujemy wstępną wycenę lub zaproponujemy spotkanie, żeby omówić konkretne szczegóły.
+          Wypełnij formularz – przygotujemy wstępną wycenę lub zaproponujemy spotkanie, żeby omówić konkretne szczegóły. Odpowiadamy w ciągu kilku godzin.
         </p>
       </div>
       

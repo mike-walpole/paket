@@ -10,20 +10,23 @@
   
   const serviceCategories = [
     {
-      title: 'Sprzedaję',
-      description: 'Kompleksowa obsługa sprzedaży Twojej nieruchomości z maksymalnym zyskiem.',
-      href: '/sprzedaje'
+      title: 'Chcę sprzedać nieruchomość',
+      description: 'Sprzedamy Twoją nieruchomość sprawnie i z pełnym zaangażowaniem.',
+      href: '/sprzedaje',
+      
     },
     {
-      title: 'Kupuję',
-      description: 'Pomoc w znalezieniu i zakupie idealnej nieruchomości dopasowanej do Twoich potrzeb.',
-      href: '/kupuje'
+      title: 'Chcę kupić nieruchomość', 
+      description: 'Znajdziemy coś, co naprawdę do Ciebie pasuje. A jeśli zechcesz – wykończymy je pod klucz.',
+      href: '/kupuje',
+      
     },
     {
-      title: 'Remontuję',
-      description: 'Kompleksowe usługi remontowe i modernizacyjne dla Twojej nieruchomości.',
-      href: '/remontuje'
-    }
+      title: 'Wykończenie pod klucz',
+      description: 'Remont mieszkania  od projektu do realizacji. Po prostu się tym zajmiemy.',
+      href: '/remontuje',
+      },
+   
   ];
 
   function toggleMobileMenu() {

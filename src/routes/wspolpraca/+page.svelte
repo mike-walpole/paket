@@ -33,9 +33,9 @@
   <section class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-8">Budujemy przyszłość razem</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-8">Budujemy przyszłość z tymi, którzy grają na najwyższym poziomie</h2>
         <p class="text-lg mb-8 leading-relaxed">
-          W Paket wierzymy, że najlepsze rezultaty osiągamy poprzez współpracę z najlepszymi. Poszukujemy partnerów, którzy podzielają nasze wartości: jakość, profesjonalizm i orientację na klienta. Jeśli jesteś wykonawcą, architektem wnętrz lub deweloperem – chcemy Cię poznać.
+          W Paket współpracujemy z profesjonalistami, którzy myślą długofalowo, dowożą jakość i rozumieją klienta. Jeśli jesteś wykonawcą, architektem wnętrz lub deweloperem i działasz na wysokim standardzie – chcemy Cię poznać.
         </p>
         <div class="grid md:grid-cols-3 gap-8 mt-12">
           <div class="text-center">
@@ -65,7 +65,7 @@
               </svg>
             </div>
             <h3 class="text-xl font-bold mb-3">Rozwój biznesu</h3>
-            <p>Dostęp do ekskluzywnych projektów, szkoleń i sieci kontaktów w branży premium.</p>
+            <p>Z nami realizujesz więcej zleceń, rośniesz sprzedażowo i możesz inwestować razem z nami.</p>
           </div>
         </div>
       </div>
@@ -87,30 +87,29 @@
               </svg>
               <h3 class="text-2xl font-bold mb-4">Wykonawcy</h3>
             </div>
+            <p class="text-gray-700 mb-4">
+              Szukamy sprawdzonych ekip remontowo-budowlanych, stolarzy, elektryków, instalatorów  którzy:
+            </p>
             <ul class="space-y-3 mb-6">
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Firma remontowo-budowlana z minimum 3-letnim doświadczeniem</span>
+                <span>mają minimum 3 lata doświadczenia i działają w zespole,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Udokumentowane referencje i portfolio zrealizowanych projektów</span>
+                <span>dysponują referencjami oraz portfolio zrealizowanych projektów,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Ubezpieczenie OC i gwarancja na wykonane prace</span>
+                <span>posiadają ważne OC oraz dają gwarancję na swoje prace,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Zespół wykwalifikowanych specjalistów</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Elastyczność w harmonogramach i dostępność</span>
+                <span>pracują rzetelnie, terminowo i potrafią dopasować się do harmonogramu.</span>
               </li>
             </ul>
             <p class="text-gray-600">
-              Oferujemy regularne zlecenia na remonty mieszkań, domów oraz obiektów komercyjnych w segmencie premium.
+              Oferujemy stały napływ zleceń – remonty mieszkań, domów i lokali w segmencie premium.
             </p>
           </div>
           
@@ -122,30 +121,29 @@
               </svg>
               <h3 class="text-2xl font-bold mb-4">Architekci wnętrz</h3>
             </div>
+            <p class="text-gray-700 mb-4">
+              Do współpracy zapraszamy projektantów, którzy:
+            </p>
             <ul class="space-y-3 mb-6">
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Wykształcenie kierunkowe lub udokumentowane doświadczenie</span>
+                <span>mają kierunkowe wykształcenie lub solidne doświadczenie w branży,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Portfolio różnorodnych projektów mieszkaniowych</span>
+                <span>mogą pochwalić się zróżnicowanym portfolio projektów mieszkaniowych,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Znajomość trendów i materiałów wykończeniowych</span>
+                <span>znają trendy, materiały i potrafią projektować z myślą o kliencie,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Umiejętność pracy z różnymi stylami i budżetami</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Kompetencje komunikacyjne i współpracy z klientem</span>
+                <span>sprawnie łączą estetykę z budżetem i potrafią rozmawiać z ludźmi.</span>
               </li>
             </ul>
             <p class="text-gray-600">
-              Współpracuj przy projektach aranżacji dla naszych klientów – od małych mieszkań po luksusowe penthouse'y.
+              Wspólnie tworzymy wnętrza dopasowane do stylu życia i celów klienta – od kawalerek po apartamenty premium.
             </p>
           </div>
           
@@ -157,37 +155,44 @@
               </svg>
               <h3 class="text-2xl font-bold mb-4">Deweloperzy</h3>
             </div>
+            <p class="text-gray-700 mb-4">
+              Zapraszamy do współpracy deweloperów, którzy:
+            </p>
             <ul class="space-y-3 mb-6">
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Doświadczenie w realizacji projektów mieszkaniowych</span>
+                <span>mają doświadczenie w realizacji projektów mieszkaniowych,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Solidna sytuacja finansowa i zabezpieczenia</span>
+                <span>działają rzetelnie, z dobrą organizacją i zabezpieczeniem finansowym,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Orientacja na jakość i terminowość realizacji</span>
+                <span>stawiają na jakość, terminowość i wysokie standardy,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Transparentność w procesach i komunikacji</span>
+                <span>są otwarci na partnerską współpracę przy sprzedaży, marketingu i wykończeniach,</span>
               </li>
               <li class="flex items-start">
                 <span class="text-red-900 mr-2 mt-1">✓</span>
-                <span>Innowacyjne podejście do projektów</span>
+                <span>potrafią działać elastycznie i szukają ciekawych modeli współpracy.</span>
               </li>
             </ul>
             <p class="text-gray-600">
-              Współtwórzmy przyszłość rynku nieruchomości poprzez ekskluzywne projekty developerskie.
+              Współpraca z nami to przestrzeń na wspólne inicjatywy, elastyczne rozwiązania i partnerskie relacje.
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+<section class="py-16 md:py-24 bg-white">
+  <div class="container mx-auto px-4">
+    <img src="/wspolpraca1.avif" alt="Współpraca" class="w-full h-auto">
+  </div>
+</section>
   <!-- Benefits -->
   <section class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4">
@@ -300,52 +305,40 @@
   </section>
 
   <!-- Process -->
-  <section class="py-16 md:py-24 bg-gray-50">
+  <section class="py-16 md:py-24" style="background-color: #F8F5F1;">
     <div class="container mx-auto px-4">
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Jak wygląda proces współpracy?</h2>
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8">Strefa Inwestora</h2>
         
-        <div class="space-y-8">
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-              <span class="text-white font-bold text-lg">1</span>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold mb-2">Zgłoszenie i weryfikacja</h4>
-              <p class="text-gray-600">Wypełnij formularz zgłoszeniowy. Nasz zespół przeanalizuje Twoje doświadczenie, portfolio i referencje.</p>
-            </div>
-          </div>
+        <p class="text-xl mb-8 font-semibold text-gray-900">
+          Zarabiaj na nieruchomościach bez codziennego zaangażowania.
+        </p>
+        
+        <div class="text-left mb-8">
+          <p class="text-lg mb-6 leading-relaxed text-gray-700">
+            Masz kapitał? My mamy know-how, sprawdzone ekipy i skuteczne strategie.<br/>
+            W Paket łączymy siły z inwestorami, by realizować dochodowe projekty od zakupu, przez remont, po sprzedaż lub wynajem.
+          </p>
           
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-              <span class="text-white font-bold text-lg">2</span>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold mb-2">Spotkanie kwalifikacyjne</h4>
-              <p class="text-gray-600">Zapraszamy na spotkanie, gdzie omawiamy szczegóły współpracy, standardy jakości i warunki finansowe.</p>
-            </div>
-          </div>
-          
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-              <span class="text-white font-bold text-lg">3</span>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold mb-2">Projekt testowy</h4>
-              <p class="text-gray-600">Realizujesz pierwszy, mniejszy projekt, który pozwala nam poznać Twój styl pracy i standard usług.</p>
-            </div>
-          </div>
-          
-          <div class="flex items-start">
-            <div class="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
-              <span class="text-white font-bold text-lg">4</span>
-            </div>
-            <div>
-              <h4 class="text-xl font-semibold mb-2">Długoterminowa współpraca</h4>
-              <p class="text-gray-600">Po udanym projekcie testowym podpisujemy umowę o współpracy i rozpoczynamy regularne zlecenia.</p>
-            </div>
-          </div>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start">
+              <span class="text-red-900 mr-3 mt-1 text-lg">✔</span>
+              <span class="text-lg"><strong>Pełna obsługa</strong> – Ty inwestujesz, my dowozimy efekt</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-red-900 mr-3 mt-1 text-lg">✔</span>
+              <span class="text-lg"><strong>Transparentne zasady</strong> i bezpieczne umowy</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-red-900 mr-3 mt-1 text-lg">✔</span>
+              <span class="text-lg"><strong>Stały kontakt</strong> i pełna kontrola nad przebiegiem inwestycji</span>
+            </li>
+          </ul>
         </div>
+        
+        <p class="text-lg font-bold text-gray-900">
+          Poznajmy się – wspólnie zbudujmy coś, co naprawdę zarabia.
+        </p>
       </div>
     </div>
   </section>

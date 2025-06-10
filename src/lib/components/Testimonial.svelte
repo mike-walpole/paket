@@ -1,24 +1,24 @@
-<div class="min-h-screen" style="background-color: #F8F5F1;">
-  <div class="min-h-screen px-4 sm:px-6 lg:px-8 py-16">
-    <div class="flex flex-col md:flex-row h-full relative">
+<div class="" style="background-color: #F8F5F1;">
+  <div class="px-4 sm:px-6 lg:px-8 py-16">
+    <div class="flex flex-col md:flex-row relative">
       <!-- Left side with image -->
       <div class="w-full md:w-1/2 pl-0 mb-8 md:mb-0">
-        <div class="h-[50vh] md:h-[calc(100vh-8rem)] relative flex justify-end">
+        <div class="h-full relative flex justify-end">
           <div class="w-full">
             <img 
-              src="/testimonial3.avif" 
+              src="/testimonial1.avif" 
               alt="Opinie klientów Paket" 
-              class="w-full h-full object-cover object-right"
+              class="w-full h-full object-cover "
             />
           </div>
         </div>
       </div>
 
       <!-- Vertical line between sections -->
-      <div class="hidden md:block absolute left-1/2 top-0 h-[calc(100vh-8rem)] ml-6 border-l border-gray-400"></div>
+      <div class="hidden md:block absolute left-1/2 top-0 h-full ml-6 border-l border-gray-400"></div>
 
       <!-- Right side with content -->
-      <div class="w-full md:w-1/2 pl-4 md:pl-12 flex flex-col h-auto md:h-[calc(100vh-8rem)]">
+      <div class="w-full md:w-1/2 pl-4 md:pl-12 flex flex-col h-auto">
         <!-- Section Title -->
         <div class="pt-4 md:pt-8 mb-8">
           <h2 class="text-gray-900 text-2xl md:text-5xl font-bold mb-8">

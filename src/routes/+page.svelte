@@ -51,28 +51,14 @@
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:justify-between gap-12">
         <!-- Left Content -->
-        <div class="hidden md:flex w-full md:w-1/2 pl-8 border-l border-white group h-[200px] flex-col justify-between">
-          <div>
-            <h2 class="text-white font-bold text-xl mb-3">
-              Paket®
-            </h2>
-            <p class="text-white/80 text-base">
-              Twój dom, nasza pasja
-            </p>
-          </div>
-          <div class="flex items-center">
-            <div class="w-2.5 h-2.5 rounded-full bg-white"></div>
-            <span class="ml-2 text-xs text-white font-bold uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-              Odkryj więcej
-            </span>
-          </div>
-        </div>
+        
 
         <!-- Right Content -->
-        <div class="w-full md:w-1/2 pl-8 border-l border-white h-[200px] flex items-start pt-1">
+        <div class="w-full md:w-1/2 pl-8 border-l border-white h-[200px] flex flex-col items-start pt-1">
           <h1 class="text-2xl md:text-3xl lg:text-4xl text-white font-normal leading-tight">
-            Znajdź swój wymarzony dom. Oferujemy mieszkania od deweloperów, z rynku wtórnego oraz kompleksowe usługi remontowe. Zaufaj ekspertom w dziedzinie nieruchomości.
+            Sprzedaj, kup lub wykończ nieruchomość z zespołem, który dowozi efekty.
           </h1>
+          <h2 class="text-white mt-6 text-xl mb-3">Działamy tak, jak sami chcielibyśmy być obsłużeni.</h2>
         </div>
       </div>
     </div>
@@ -91,7 +77,7 @@
 
 
 
-<WhyYouLove />
+
 
 <Calendly />
 

@@ -9,7 +9,7 @@
     {
       number: '01',
       image: '/sell-1.avif',
-      title: 'Rozpoczynamy współpracę',
+      title: 'Pierwsza rozmowa',
       description: 'Pierwszy kontakt to moment, w którym poznajemy Twoje oczekiwania i przedstawiamy, jak możemy Ci pomóc. Omawiamy strategię sprzedaży i dopasowujemy ją do Twojej nieruchomości.'
     },
     {
@@ -88,33 +88,39 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Bezpieczeństwo</strong> – współpracujemy z działem prawnym.</span>
+            <span><strong>Bezpieczeństwo transakcji</strong> – współpracujemy z działem prawnym.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Lepsza prezentacja</strong> – profesjonalny home staging, wysokiej jakości zdjęcia i filmy.</span>
+            <span><strong>Mocna prezentacja</strong> – home staging, zdjęcia, wideo, dron – robimy efekt „wow”.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Skuteczna promocja</strong> – ogłaszamy ofertę na wielu kanałach, także niestandardowych, by
-            dotrzeć do idealnego kupca.</span>
+            <span><strong>Promocja z rozmachem</strong> – klasyczne i niestandardowe kanały, precyzyjny target.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Optymalna cena</strong> – precyzyjna wycena i negocjacje w Twoim interesie.</span>
+            <span><strong>Cena maksymalna</strong> – negocjujemy twardo, jak dla siebie.</span>
           </li>
           <li class="flex items-start">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span><strong>Pełna obsługa</strong> – zajmujemy się wszystkim, Ty masz spokój.</span>
+            <span><strong>Obsługa end-to-end</strong> – Ty odpoczywasz, my ogarniamy całość.</span>
           </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-900 mr-2 mt-1 flex-shrink-0">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span><strong>Liczy się efekt </strong> – szybka, pewna, dobrze wyceniona sprzedaż.</span>
+          </li>
+
         </ul>
         
         <p class="text-lg font-medium">
@@ -122,6 +128,12 @@
           pierwszego kontaktu do finalizacji!
         </p>
       </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4">
+      <img src="/sprzedaz1.avif" alt="Sprzedaję nieruchomość" class="w-full h-auto">
     </div>
   </section>
 

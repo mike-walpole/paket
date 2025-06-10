@@ -74,7 +74,7 @@
     <div class="absolute inset-0 bg-black/20 z-10"></div>
     <div class="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center" >
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Kupuję nieruchomość</h1>
-      <p class="text-xl md:text-2xl text-white max-w-3xl">Znajdź swoje wymarzone miejsce z profesjonalnym wsparciem</p>
+      <p class="text-xl md:text-2xl text-white max-w-3xl">Szukasz mieszkania? My znajdziemy i oddamy gotowe.</p>
     </div>
   </div>
 
@@ -83,8 +83,8 @@
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <p class="text-lg mb-8 leading-relaxed">
-          Podchodzimy do zakupu Twojej nieruchomości z pełnym zaangażowaniem, jakby to był nasz własny dom.
-          Pomagamy w znalezieniu idealnego mieszkania dopasowanego do Twoich potrzeb i oczekiwań.
+          <span class="font-bold">Każdy klient ma inne potrzeby – dlatego cały proces szukania nieruchomości personalizujemy.</span><br>  
+          Dopasowujemy oferty do Twoich oczekiwań, budżetu i stylu życia. Dzięki doświadczeniu w wykańczaniu wnętrz już na etapie oględzin oceniamy układ, potencjał zmian oraz realne koszty adaptacji – tak, by zakup był świadomy i trafiony.
         </p>
         
         <ul class="space-y-3 mb-8">
@@ -128,6 +128,11 @@
     </div>
   </section>
 
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4">
+      <img src="/kupic1.avif" alt="Kupuję nieruchomość" class="w-full h-auto">
+    </div>
+  </section>
   <!-- Steps section -->
   <section class="py-16 md:py-24 bg-gray-50">
     <div class="container mx-auto px-4">

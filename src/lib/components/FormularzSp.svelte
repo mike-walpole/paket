@@ -126,7 +126,7 @@
           Chcesz sprzedać nieruchomość? Zróbmy to razem.
         </h2>
         <p class="text-lg text-gray-600">
-          Wypełnij krótki formularz – bez zobowiązań sprawdzimy, co możemy dla Ciebie zrobić.
+          Wypełnij krótki formularz – bez zobowiązań sprawdzimy, co możemy dla Ciebie zrobić. Odpowiadamy w ciągu kilku godzin.
         </p>
       </div>
       

@@ -19,7 +19,7 @@
   <!-- Background Image -->
   <div class="absolute inset-0">
     <img 
-      src="/room2.avif" 
+      src="/investors1.avif" 
       alt="DomExpert - Twoje zaufane biuro nieruchomości" 
       class="w-full h-full object-cover"
     />
@@ -31,23 +31,12 @@
     <!-- Top Content - Only title on desktop -->
     <div class="py-12 px-4 md:px-12">
       <h2 class="text-5xl md:text-6xl leading-tighter text-white md:w-1/2">
-            Poznaj Paket®
-            Twoje zaufane biuro nieruchomości. Profesjonalna obsługa, bezpieczne transakcje i kompleksowe usługi remontowe. Znajdujemy wymarzone miejsca do życia.
-      </h2>
+        Za każdą nieruchomością kryje się historia. <br>
+        W Paket pomagamy napisać jej nowy rozdział. <br>
+        Od decyzji do zamieszkania – wszystko w jednym miejscu</h2>
     </div>
     
     <!-- Bottom Content - Features -->
-    <div class="py-12 px-4 md:px-12 mt-auto">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
-        {#each features as feature, index}
-          <div class="relative {index > 0 ? 'md:border-l md:pl-4 border-white' : ''}">
-            <div>
-              <h3 class="text-xl font-bold mb-4">{feature.title}</h3>
-              <p class="text-base font-normal">{feature.description}</p>
-            </div>
-          </div>
-        {/each}
-      </div>
-    </div>
+    
   </div>
 </div> 

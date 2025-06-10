@@ -107,7 +107,7 @@
     <div class="text-center mb-12">
       <h2 class="text-4xl md:text-5xl font-bold mb-6">Porozmawiajmy o Twojej nieruchomości.</h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-        Niezależnie czy chcesz sprzedać, kupić  czy potrzebujesz remontu  – jesteśmy po to, żeby ułatwić Ci ten proces.
+        Niezależnie czy chcesz sprzedać, kupić  czy potrzebujesz remontu  – jesteśmy po to, żeby ułatwić Ci ten proces. Odpowiadamy w ciągu kilku godzin.
       </p>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">Zawsze odpowiadamy szybko, bo szanujemy Twój czas.</p>
       

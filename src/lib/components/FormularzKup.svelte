@@ -144,7 +144,7 @@
           Szukasz nieruchomości? Pomożemy Ci ją znaleźć.
         </h2>
         <p class="text-lg text-gray-600">
-          Powiedz nam, czego szukasz – bez zobowiązań sprawdzimy, co możemy dla Ciebie zrobić.
+          Powiedz nam, czego szukasz – bez zobowiązań sprawdzimy, co możemy dla Ciebie zrobić. Odpowiadamy w ciągu kilku godzin.
         </p>
       </div>
       
