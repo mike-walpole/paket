@@ -337,7 +337,7 @@
             />
             <label for="zgodaPrzetwarzanie" class="ml-2 block text-sm text-gray-700">
               <span class="text-red-900">*</span>
-              Wyrażam zgodę na przetwarzanie moich danych osobowych przez Paket Invest Sp. z o.o., właściciela marki Paket Nieruchomości, w celu odpowiedzi na przesłane zapytanie, zgodnie z polityką prywatności.
+              Wyrażam zgodę na przetwarzanie moich danych osobowych przez Paket Invest Sp. z o.o., właściciela marki Paket Nieruchomości, w celu odpowiedzi na przesłane zapytanie, zgodnie z <a href="/polityka-prywatnosci" class="underline">polityką prywatności</a>.
             </label>
           </div>
           {#if errors.zgodaPrzetwarzanie}

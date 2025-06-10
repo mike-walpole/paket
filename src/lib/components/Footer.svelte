@@ -1,8 +1,8 @@
 <script>
   const produkty = [
-    { title: 'Kupuję', href: '/kupuje' },
-    { title: 'Sprzedaję', href: '/sprzedaje' },
-    { title: 'Remontuję', href: '/remontuje' },
+    { title: 'Chcę kupić nieruchomość', href: '/kupuje' },
+    { title: 'Chcę sprzedać nieruchomość', href: '/sprzedaje' },
+    { title: 'Wykończenie pod klucz', href: '/remontuje' },
     { title: 'Paket na Temat', href: '/magazyn' }
   ];
 

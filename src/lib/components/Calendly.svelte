@@ -109,7 +109,7 @@
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
         Niezależnie czy chcesz sprzedać, kupić  czy potrzebujesz remontu  – jesteśmy po to, żeby ułatwić Ci ten proces. Odpowiadamy w ciągu kilku godzin.
       </p>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Zawsze odpowiadamy szybko, bo szanujemy Twój czas.</p>
+      
       
       <!-- Contact Information -->
       <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mt-6">
@@ -250,7 +250,7 @@
               />
               <label for="zgodaPrzetwarzanie" class="ml-2 block text-sm text-gray-700">
                 <span class="text-red-900">*</span>
-                Wyrażam zgodę na przetwarzanie moich danych osobowych przez Paket Invest Sp. z o.o., właściciela marki Paket Nieruchomości, w celu odpowiedzi na przesłane zapytanie, zgodnie z polityką prywatności.
+                Wyrażam zgodę na przetwarzanie moich danych osobowych przez Paket Invest Sp. z o.o., właściciela marki Paket Nieruchomości, w celu odpowiedzi na przesłane zapytanie, zgodnie z <a href="/polityka-prywatnosci" class="underline">polityką prywatności</a>
               </label>
             </div>
             {#if errors.zgodaPrzetwarzanie}

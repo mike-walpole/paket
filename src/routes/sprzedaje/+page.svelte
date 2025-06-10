@@ -68,7 +68,7 @@
               transform-origin: center;">
     <div class="absolute inset-0 bg-black/20 z-10"></div>
     <div class="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center" >
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Sprzedaję nieruchomość</h1>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Chcę sprzedać nieruchomość</h1>
       <p class="text-xl md:text-2xl text-white max-w-3xl">Profesjonalna sprzedaż w rękach ekspertów</p>
     </div>
   </div>
