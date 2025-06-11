@@ -28,7 +28,7 @@
   
   <!-- Hero section -->
   <div class="relative h-[33vh] overflow-hidden" 
-       style="background-image: url('/cherwell6.avif'); 
+       style="background-image: url('/natemat.png'); 
               background-size: cover;
               background-position: center;">
     <div class="absolute inset-0 bg-black/20 z-10"></div>

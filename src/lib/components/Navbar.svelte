@@ -17,7 +17,7 @@
     },
     {
       title: 'Chcę kupić nieruchomość', 
-      description: 'Znajdziemy coś, co naprawdę do Ciebie pasuje. A jeśli zechcesz – wykończymy je pod klucz.',
+      description: 'Znajdziemy nieruchomość, która naprawdę do Ciebie pasuje. A jeśli zechcesz – wykończymy ją pod klucz',
       href: '/kupuje',
       
     },

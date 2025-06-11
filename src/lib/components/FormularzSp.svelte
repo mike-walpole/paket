@@ -231,7 +231,7 @@
             id="lokalizacja"
             bind:value={formData.lokalizacja}
             class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-900 focus:border-transparent {errors.lokalizacja ? 'border-red-500' : ''}"
-            placeholder="np. Warszawa, Mokotów, ul. Przykładowa 123"
+            placeholder="np. Poznań, ul. Przykładowa 123"
           />
           {#if errors.lokalizacja}
             <p class="mt-1 text-sm text-red-900">{errors.lokalizacja}</p>
@@ -352,6 +352,7 @@
               class="mt-1 h-4 w-4 text-red-900 focus:ring-red-900 border-gray-300 rounded"
             />
             <label for="zgodaMarketing" class="ml-2 block text-sm text-gray-700">
+              <span class="text-red-900">*</span>
               Wyrażam zgodę na otrzymywanie od Paket Invest Sp. z.o.o właściciela marki Paket Nieruchomości informacji handlowych drogą elektroniczną (e-mail, SMS, telefon)
             </label>
           </div>

@@ -159,7 +159,7 @@
               <p class="text-lg mb-6 leading-relaxed">Każdy projekt traktujemy indywidualnie, bo wiemy, że każda nieruchomość to nowa historia          </p>
 
               <p class="text-lg mb-6 leading-relaxed">Z nami możesz liczyć na profesjonalizm, transparentność i pełne wsparcie na każdym etapie.</p>
-
+              <p class="text-lg mb-6 font-bold leading-relaxed">Anna i Łukasz Kaczmarek</p>
 
               
             </div>

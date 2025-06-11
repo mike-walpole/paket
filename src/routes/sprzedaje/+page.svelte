@@ -61,7 +61,7 @@
   
   <!-- Hero section with rotated image -->
   <div class="relative h-[50vh] overflow-hidden" 
-       style="background-image: url('/sprzedaz.png'); 
+       style="background-image: url('/sprzedaz-hero.webp'); 
               background-size: cover;
               background-position: center;
               
